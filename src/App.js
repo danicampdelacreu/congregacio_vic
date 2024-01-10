@@ -7,10 +7,12 @@ import Footer from './components/footer/Footer';
 
 import Historia from './routes/historia/Historia';
 import Home from './routes/home/Home';
-import Noticies from './routes/noticias/Noticias';
-import Galeria from './routes/galeria/Galeria'
-import Informacio from './routes/informacion/informacion'
-import Donatiu from './routes/donatiu/Donatiu'
+import Noticias from './routes/noticias/Noticias';
+import Galeria from './routes/galeria/Galeria';
+import Informacion from './routes/informacion/Informacion';
+import Donativo from './routes/donativo/Donativo';
+import FAQS from './routes/FAQS/FAQS';
+import Aceptacion from './routes/aceptacion/Aceptacion';
 
 function App() {
   return (
@@ -19,10 +21,12 @@ function App() {
       <Routes>
         <Route path='/' element = { <Home/> } />
         <Route path='/historia' element = { <Historia/> }/>
-        <Route path='/donatiu' element = { <Donatiu/> }/>
-        <Route path='/noticies' element = { <Noticies/> }/>
+        <Route path='/donativo' element = { <Donativo/> }/>
+        <Route path='/noticias' element = { <Noticias/> }/>
         <Route path='/galeria' element = { <Galeria/> }/>
-        <Route path='/informacio' element = { <Informacio/> }/>
+        <Route path='/informacion' element = { <Informacion/> }/>
+        <Route path='/faqs' element = { <FAQS/> } />
+        <Route path='/aceptacion' element = { <Aceptacion/> } />
       </Routes>
       <Footer/>
       </BrowserRouter>

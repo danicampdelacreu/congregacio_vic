@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import "./Home.css"
+
 export default function Home() {
 
     const scrollToTop = () => {
@@ -15,16 +17,10 @@ export default function Home() {
                 <Link to="/Historia" onClick={scrollToTop}>Anar</Link>
             </div>
 
-            <div class='donatiuinformacio'>
-                <h3>Fes un donatiu</h3>
-                <p>Explicacio donatiu</p>
-                <Link to="/Donatiu" onClick={scrollToTop}>Anar</Link>
-            </div>
-
-            <div class='homeNoticies'>
+            <div class='homeNoticias'>
                 <h3>Noticies</h3>
                 <p>Mini explicacio noticies</p>
-                <Link to="/Noticies" onClick={scrollToTop}>Anar</Link>
+                <Link to="/Noticias" onClick={scrollToTop}>Anar</Link>
             </div>
 
             <div class='homeGaleria'>
@@ -33,12 +29,17 @@ export default function Home() {
                 <Link to="/Galeria" onClick={scrollToTop}>Anar</Link>
             </div>
 
-            <div class='homeinformacio'>
+            <div class='homeInformacion'>
                 <h3>Informacio General</h3>
                 <p>Explicacio informacio</p>
-                <Link to="/Informacio" onClick={scrollToTop}>Anar</Link>
+                <Link to="/Informacion" onClick={scrollToTop}>Anar</Link>
             </div>
 
+            <div class='homeDonativo'>
+                <h3>Fes un donatiu</h3>
+                <p>Explicacio donatiu</p>
+                <Link to="/Donativo" onClick={scrollToTop}>Anar</Link>
+            </div>
         </main>
     );
 };

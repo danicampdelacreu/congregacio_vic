@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
-
+import './Header.css'
 export default function Header() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +12,7 @@ export default function Header() {
 
     return(
         <div className = 'headerGeneral'>
+          <p>logo</p>
             <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
         MENU
       </button>
@@ -25,16 +26,16 @@ export default function Header() {
               <Link to="/historia">HISTORIA</Link>
             </li>
             <li>
-              <Link to="/noticies">NOTICIES</Link>
+              <Link to="/noticias">NOTICIES</Link>
             </li>
             <li>
               <Link to="/galeria">GALERIA</Link>
             </li>
             <li>
-              <Link to="/informacio">INFO</Link>
+              <Link to="/informacion">INFO</Link>
             </li>
             <li>
-              <Link to="/informacio">DONATIUS</Link>
+              <Link to="/donativo">DONATIUS</Link>
             </li>
           </ul>
         </nav>

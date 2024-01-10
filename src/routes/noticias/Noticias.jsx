@@ -1,12 +1,12 @@
+import "./Noticias.css"
 
-
-export default function Noticies() {
+export default function Noticias() {
     return (
-        <div className='noticiesGeneral'>
-            <div className='noticiesFoto'>
+        <div className='noticiasGeneral'>
+            <div className='noticiasFoto'>
                 <p>foto Noticies</p>
             </div>
-            <div className='noticiesExpli'>
+            <div className='noticiasExpli'>
                 <h2>Noticies</h2>
                 <p>
                     Eventos de tot l'any

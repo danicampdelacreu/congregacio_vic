@@ -1,12 +1,12 @@
+import "./Donativo.css"
 
-
-export default function Donatiu() {
+export default function Donativo() {
     return (
-        <div className='donatiuGeneral'>
-            <div className='donatiuFoto'>
+        <div className='donativoGeneral'>
+            <div className='donativoFoto'>
                 <p>logo congregacio</p>
             </div>
-            <div className='donatiuExpli'>
+            <div className='donativoExpli'>
                 <h2>Donatiu</h2>
                 <p>
                     Que es un donatiu, com es fa, i que en fem
