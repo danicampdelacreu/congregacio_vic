@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import "./Noticias.css"
 
 export default function Noticias() {
@@ -11,6 +13,9 @@ export default function Noticias() {
                 <p>
                     Eventos de tot l'any
                 </p>
+            </div>
+            <div className="noticiasReturn">
+                <Link to="/">Inici</Link>
             </div>
         </div>
     );

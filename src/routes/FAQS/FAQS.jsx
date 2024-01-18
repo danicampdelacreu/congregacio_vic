@@ -9,14 +9,17 @@ export default function FAQS() {
     };
 
     return (
-        <div className="FAQS">
+        <div className="faqsGeneral">
+            
+            <div className='linkReturn'>
             <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
-            <h3 className='first'>Preguntas Frecuentes - Pastisseria Casellas S.L.</h3>
+            </div>
+            <h3 className='first'>Preguntas Frecuentes - Congregracio de Vic</h3>
 
             <h4 className='first'>Preguntas Generales:</h4>
-            <h5>1. ¿Dónde se encuentra ubicada la pastelería Pastisseria Casellas S.L.?</h5>
-            <p> Plaça Catalunya nº 9 de Navàs</p>
-            <h5>2. ¿Cuáles son los horarios de apertura de la pastelería?</h5>
+            <h5>1. ¿Dónde se encuentra ubicada la Congregracio de Vic?</h5>
+            <p> DIRECCIO-------------</p>
+            <h5>2. ¿Cuáles son los horarios?</h5>
             <p>DIVENDRES: 10:00-13:00 // 16:00-19:00</p>
             <p>DISSABTE i DIUMENGE: 10:00-14:00</p>
             <h5>3. ¿Ofrecen opciones de entrega a domicilio?</h5>
@@ -54,7 +57,7 @@ export default function FAQS() {
             <h5>19. ¿Tienen opciones veganas o vegetarianas?</h5>
 
             <h4 className='first'>Sobre el Formulario de Contacto:</h4>
-            <h5>20. ¿Cómo puedo contactar a Pastisseria Casellas S.L. a través del formulario de contacto?</h5>
+            <h5>20. ¿Cómo puedo contactar a Congregracio de Vic a través del formulario de contacto?</h5>
             <p>Tienes nuestro formulario de contacto en el pie de esta misma pagina</p>
             <h5>21. ¿Cuál es el tiempo de respuesta típico para las consultas enviadas a través del formulario?</h5>
             <p>Se responderan en horario laboral maximo 48h</p>
@@ -71,18 +74,18 @@ export default function FAQS() {
             <h5>26. ¿Tienen perfiles en redes sociales donde pueda seguir sus últimas novedades?</h5>
             <p>Estamos trabajando en ello. De momento solo tenemos la pagina web</p>
 
-            <h3 className='first'>Política de Cookies - Pastisseria Casellas S.L.</h3>
+            <h3 className='first'>Política de Cookies - Congregracio de Vic</h3>
 
             <p className='first'><strong>Última actualización:</strong> [2 de Noviembre de 2023]</p>
 
             <h4 className='first'>1. Introducción</h4>
-            <p>Esta Política de Cookies describe cómo Pastisseria Casellas S.L. utiliza cookies y tecnologías similares para recopilar y almacenar información cuando visitas nuestro sitio web. Esta política explica qué son las cookies, cómo las utilizamos y cómo puedes gestionar tus preferencias de cookies.</p>
+            <p>Esta Política de Cookies describe cómo Congregracio de Vic utiliza cookies y tecnologías similares para recopilar y almacenar información cuando visitas nuestro sitio web. Esta política explica qué son las cookies, cómo las utilizamos y cómo puedes gestionar tus preferencias de cookies.</p>
 
             <h4>2. ¿Qué son las cookies?</h4>
             <p>Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo (ordenador, teléfono móvil o tablet) cuando visitas un sitio web. Estas cookies pueden contener información sobre tu actividad en el sitio web y se utilizan para recordar ciertas preferencias y mejorar tu experiencia de navegación.</p>
 
             <h4>3. ¿Cómo utilizamos las cookies?</h4>
-            <p>En Pastisseria Casellas S.L., utilizamos cookies con los siguientes propósitos:</p>
+            <p>En Congregracio de Vic, utilizamos cookies con los siguientes propósitos:</p>
 
             <p><strong>Cookies esenciales:</strong> Estas cookies son necesarias para el funcionamiento básico del sitio web y te permiten navegar por el sitio y utilizar sus funciones esenciales. No recopilan información personal.</p>
 
@@ -100,7 +103,9 @@ export default function FAQS() {
 
             <h4>6. Contacto</h4>
             <p className='lastP'>Si tienes alguna pregunta o inquietud sobre nuestra política de cookies, por favor, contáctanos a través de pastisseriacasellas@gmail.com.</p>
+            <div className='linkReturn'>
             <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
+            </div>
         </div>
     );
 }

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import "./Galeria.css"
 
 export default function Galeria() {
@@ -11,6 +13,9 @@ export default function Galeria() {
                 <p>
                     Totes les fotos
                 </p>
+            </div>
+            <div className="galeriaReturn">
+                <Link to="/">Inici</Link>
             </div>
         </div>
     );

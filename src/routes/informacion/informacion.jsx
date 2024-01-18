@@ -49,16 +49,19 @@ export default function Informacion() {
             </div>
 
             <div className='informacionDonativo'>
-                <h2>info donatiu </h2>
+                <h2>DONATIU</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo necessitatibus iure culpa aspernatur cupiditate quaerat, rerum eius odio animi perspiciatis ducimus illum placeat, atque sapiente non maxime consectetur repellendus dignissimos. </p>
                 <Link to="/Donativo" onClick={scrollToTop}>Anar</Link>
             </div>
 
             <div className='informacionUnete'>
-                <h2>informacion unirte</h2>
+                <h2>UNIR-TE</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
             </div>
 
             <div className='informacionOtras'>
-                <h2> altre informacion</h2>
+                <h2> MES INFO</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quo enim voluptatem sunt in repellendus eum debitis, iusto accusantium adipisci asperiores deleniti voluptas similique. Aperiam totam similique veritatis itaque voluptates!</p>
             </div>
 
             <div className="informacionMensaje">
@@ -90,6 +93,9 @@ export default function Informacion() {
                         <input type="submit" value="Enviar" />
                     </div>
                 </form>
+            </div>
+            <div className="informacionReturn">
+                <Link to="/">Inici</Link>
             </div>
         </div>
     )
