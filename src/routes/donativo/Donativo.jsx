@@ -16,7 +16,7 @@ export default function Donativo() {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt recusandae quas impedit iusto culpa ex nobis dignissimos id ipsa porro eos distinctio, nisi modi saepe tempore voluptas consequatur facilis? Ut?
                 </p>
             </div>
-            <div className="dontaivoReturn">
+            <div className="donativoReturn">
                 <Link to="/">Inici</Link>
             </div>
         </div>

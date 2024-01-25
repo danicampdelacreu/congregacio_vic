@@ -44,14 +44,14 @@ export default function Informacion() {
 
     return (
         <div className='informacionGeneral'>
-            <div className='informacioFoto'>
+            <div className='informacionFoto'>
                 <p>logo congrecacio</p>
             </div>
 
             <div className='informacionDonativo'>
                 <h2>DONATIU</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo necessitatibus iure culpa aspernatur cupiditate quaerat, rerum eius odio animi perspiciatis ducimus illum placeat, atque sapiente non maxime consectetur repellendus dignissimos. </p>
-                <Link to="/Donativo" onClick={scrollToTop}>Anar</Link>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>
 
             <div className='informacionUnete'>
