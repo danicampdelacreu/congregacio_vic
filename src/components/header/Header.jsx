@@ -1,45 +1,63 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
-import './Header.css'
-export default function Header() {
+import './Header.css';
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-    return(
-        <div className = 'headerGeneral'>
-          <p>logo</p>
-            <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <div className='headerGeneral'>
+      <button className={`menuButton ${isMenuOpen ? 'hide' : ''}`} onClick={toggleMenu}>
         MENU
       </button>
       {isMenuOpen && (
         <nav className='headerNav'>
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <button className='closeButton' onClick={closeMenu}>X </button>
             </li>
             <li>
-              <Link to="/historia">HISTORIA</Link>
+              <Link to="/" onClick={closeMenu}>
+                HOME
+              </Link>
             </li>
             <li>
-              <Link to="/noticias">NOTICIES</Link>
+              <Link to="/historia" onClick={closeMenu}>
+                HISTORIA
+              </Link>
             </li>
             <li>
-              <Link to="/galeria">GALERIA</Link>
+              <Link to="/noticias" onClick={closeMenu}>
+                NOTICIAS
+              </Link>
             </li>
             <li>
-              <Link to="/informacion">INFO</Link>
+              <Link to="/galeria" onClick={closeMenu}>
+                GALERIA
+              </Link>
             </li>
             <li>
-              <Link to="/donativo">DONATIUS</Link>
+              <Link to="/informacion" onClick={closeMenu}>
+                INFORMACION
+              </Link>
+            </li>
+            <li>
+              <Link to="/donativo" onClick={closeMenu}>
+                DONATIVOS
+              </Link>
             </li>
           </ul>
         </nav>
       )}
-        </div>
-    )
+    </div>
+  );
 }
