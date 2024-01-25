@@ -14,9 +14,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    /* Mostrar los enlaces uno debajo del otro */
     margin: 20px 0;
-    /* Agregar margen para separar los enlaces del botón "Menú" */
     padding: 40px;
     background: rgba(60, 54, 54, 0.723);
     position: absolute;
@@ -33,7 +31,6 @@
 .headerNav.open ul {
     display: flex;
     flex-direction: column;
-    /* Mostrar los enlaces uno debajo del otro cuando el menú esté abierto */
 }
 
 .menuButton {
@@ -78,9 +75,7 @@
 
 .headerNav li {
     margin-right: 0;
-    /* Eliminar el margen derecho para que los enlaces estén centrados */
     margin-bottom: 20px;
-    /* Agregar margen inferior para separar los enlaces */
    
 }
 

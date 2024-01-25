@@ -10,9 +10,36 @@ export default function Noticias() {
             </div>
             <div className='noticiasExpli'>
                 <h2>Noticies</h2>
-                <p>
-                    Eventos de tot l'any
-                </p>
+                <div className='evento1'>
+                    <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
+                <div className='evento2'>
+                <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
+                <div className='evento3'>
+                <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
+                <div className='evento4'>
+                <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
+                <div className='evento5'>
+                <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
+                <div className='evento6'>
+                <h4>Titul event</h4>
+                    <h5>Data event</h5>
+                    <p>explicacio event</p>
+                </div>
             </div>
             <div className="noticiasReturn">
                 <Link to="/">Inici</Link>
