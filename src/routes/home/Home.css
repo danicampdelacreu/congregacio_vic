@@ -4,17 +4,45 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: white;
-        padding: 20px;
+        background-color: white
+    }
+
+    .allMain h3 {
+        font-size: 22px;
     }
 
     .homeFoto {
         background-color: rgba(66, 73, 66, 0.317);
         height: 200px;
         width: 100%;
+        display: flex;
+        /* Agregado para activar flexbox */
+        align-items: center;
+        /* Centra verticalmente */
+        justify-content: center;
+        /* Centra horizontalmente */
         text-align: center;
         margin-bottom: 30px;
-        border-radius: 40px;
+        background-image: url('../../assets/img/Congracio_General.jpg');
+        background-size: cover;
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 25% 80%, 0 100%);
+    }
+
+    .homeFoto h2 {
+        display: flex;
+        /* Agregado para activar flexbox */
+        align-items: center;
+        /* Centra verticalmente */
+        justify-content: center;
+        /* Centra horizontalmente */
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.031);
+        backdrop-filter: blur(10px);
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 25% 80%, 0 100%);
     }
 
     .homeHistoria,
@@ -37,6 +65,56 @@
         box-sizing: border-box;
     }
 
+    .homeHistoria {
+        background-image: url('../../assets/img/Historia.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeNoticias {
+        background-image: url('../../assets/img/Noticias.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeGaleria {
+        background-image: url('../../assets/img/Galeria.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeInformacion {
+        background-image: url('../../assets/img/Informacion.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeDonativo {
+        background-image: url('../../assets/img/Donativo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeHistoriaIn,
+    .homeNoticiasIn,
+    .homeGaleriaIn,
+    .homeInformacionIn,
+    .homeDonativoIn {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.284);
+        border-radius: 20px;
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
     .allMain a {
         display: inline-block;
         background-color: white;
@@ -45,6 +123,7 @@
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 70px;
         margin-top: 20px;
+        margin-bottom: 10px;
         font-size: 16px;
         text-align: center;
         line-height: 35px;
@@ -64,16 +143,10 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 580px) and (max-width: 768px) {
-
-}
+@media (min-width: 580px) and (max-width: 768px) {}
 
 /* Tamaño Tablet Horizontal*/
-@media (min-width: 768px) and (max-width: 1024px) {
-
-}
+@media (min-width: 768px) and (max-width: 1024px) {}
 
 /* Tamaño Pantalla*/
-@media(min-width: 1024px) {
-    
-}
+@media(min-width: 1024px) {}

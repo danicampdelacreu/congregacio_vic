@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Home.css";
 
-import "./Home.css"
+import General from '../../assets/img/Congracio_General.jpg';
+
 
 export default function Home() {
 
@@ -12,38 +14,46 @@ export default function Home() {
     return (
         <main class='allMain'>
             <div className='homeFoto'>
-                <p>aqui va la foto</p>
+                <h2>Congregració Vigatana dels Dolors </h2>
             </div>
             <div class='homeHistoria'>
-                <h3>Historia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    
-                </p>
-                <Link to="/Historia" onClick={scrollToTop}>+ Info</Link>
+                <div className='homeHistoriaIn'>
+                    <h3>Historia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <Link to="/Historia" onClick={scrollToTop}>+ Info</Link>
+                </div>
             </div>
 
             <div class='homeNoticias'>
-                <h3>Noticies</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <Link to="/Noticias" onClick={scrollToTop}>+ Info</Link>
+                <div className='homeNoticiasIn'>
+                    <h3>Noticies</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <Link to="/Noticias" onClick={scrollToTop}>+ Info</Link>
+                </div>
             </div>
 
             <div class='homeGaleria'>
-                <h3>Galeria</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <Link to="/Galeria" onClick={scrollToTop}>+ Info</Link>
+                <div className='homeGaleriaIn'>
+                    <h3>Galeria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <Link to="/Galeria" onClick={scrollToTop}>+ Info</Link>
+                </div>
             </div>
 
             <div class='homeInformacion'>
-                <h3>Informacio General</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
+                <div className='homeInformacionIn'>
+                    <h3>Informacio General</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
+                </div>
             </div>
 
             <div class='homeDonativo'>
-                <h3>Fes un donatiu</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
+                <div className='homeDonativoIn'>
+                    <h3>Fes un donatiu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
+                </div>
             </div>
         </main>
     );
