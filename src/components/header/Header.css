@@ -1,81 +1,99 @@
-.headerNav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(60, 54, 54, 0.723);
-    box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    transition: top 0.3s ease; /* Agregar transición para suavizar el cambio de posición */
+/* Tamaño movil*/
+@media (max-width: 580px) {
+    .headerNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(60, 54, 54, 0.723);
+        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        transition: top 0.3s ease;
+        /* Agregar transición para suavizar el cambio de posición */
+    }
+
+    .headerNav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 40px;
+        background: rgba(60, 54, 54, 0.723);
+        position: absolute;
+        top: 40px;
+        left: 0;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 35px;
+        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .headerNav.open ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuButton {
+        background: rgba(252, 252, 252, 0.214);
+        border: none;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+        color: black
+    }
+
+    .closeButton {
+        background: rgba(60, 54, 54, 0.001);
+        border: none;
+        font-family: 'Quicksand', sans-serif;
+        cursor: pointer;
+        font-size: 22px;
+        color: white;
+        margin-left: 120px;
+    }
+
+    .closeButton:hover {
+        color: black;
+
+    }
+
+    .headerGeneral {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(252, 252, 252, 0.214);
+    }
+
+    .headerNav a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .headerNav li {
+        margin-right: 0;
+        margin-bottom: 20px;
+
+    }
 }
 
-.headerNav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-    padding: 40px;
-    background: rgba(60, 54, 54, 0.723);
-    position: absolute;
-    top: 40px;
-    left: 0;
-    padding-top: 15px;
-    padding-right: 20px;
-    padding-bottom: 35px;
-    box-shadow: inset 0 0 10px rgba(176, 173, 173, 3); 
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px ;
+/* Tamaño Tablet Vertical*/
+@media (min-width: 580px) and (max-width: 768px) {
+
 }
 
-.headerNav.open ul {
-    display: flex;
-    flex-direction: column;
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
 
-.menuButton {
-    background: rgba(252, 252, 252, 0.214);
-    border: none;
-    padding: 10px;
-    font-family: 'Quicksand', sans-serif;
-    cursor: pointer;
-    font-size: 16px;
-    color: black
-}
-
-.closeButton {
-    background:rgba(60, 54, 54, 0.001);
-    border: none;
-    font-family: 'Quicksand', sans-serif;
-    cursor: pointer;
-    font-size: 22px;
-    color: white;
-    margin-left: 120px;
-  }
-
-  .closeButton:hover{
-    color:black;
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
     
-  }
-
-.headerGeneral {
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(252, 252, 252, 0.214);
 }
-
-.headerNav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.headerNav li {
-    margin-right: 0;
-    margin-bottom: 20px;
-   
-}
-

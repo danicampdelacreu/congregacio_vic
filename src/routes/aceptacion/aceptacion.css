@@ -1,8 +1,25 @@
+/* Tamaño movil*/
+@media (max-width: 580px) {
+    .privacidad {
+        background-color: rgba(0, 0, 255, 0.499);
+    }
 
-.privacidad {
-    background-color: rgba(0, 0, 255, 0.499);
+    .linkReturn {
+        text-align: center;
+    }
 }
 
-.linkReturn {
-    text-align: center;
+/* Tamaño Tablet Vertical*/
+@media (min-width: 580px) and (max-width: 768px) {
+
+}
+
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
+    
 }

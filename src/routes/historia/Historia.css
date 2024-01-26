@@ -1,57 +1,76 @@
-.historiaGeneral{
-    padding: 40px;
-    justify-content: center;
-    /* Centrar verticalmente */
-    align-items: center;
-    /* Centrar horizontalmente */
-    text-align: center;
+/* Tamaño movil*/
+@media (max-width: 580px) {
+    .historiaGeneral {
+        padding: 40px;
+        justify-content: center;
+        /* Centrar verticalmente */
+        align-items: center;
+        /* Centrar horizontalmente */
+        text-align: center;
+    }
+
+    .historiaFoto {
+
+        background-color: rgba(66, 73, 66, 0.317);
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        border-radius: 40px;
+    }
+
+    .historiaExpli {
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: rgba(252, 252, 252, 0.214);
+        border-radius: 20px;
+        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+    .historiaReturn a {
+        display: inline-block;
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 70px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+
+    }
+
+    .historiaReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+
+    }
 }
 
-.historiaFoto {
+/* Tamaño Tablet Vertical*/
+@media (min-width: 580px) and (max-width: 768px) {
+
+}
+
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
     
-    background-color: rgba(66, 73, 66, 0.317);
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    border-radius: 40px;
-}
-.historiaExpli{
-    width: 100%;
-    margin-bottom: 30px;
-    background-color: rgba(252, 252, 252, 0.214);
-    border-radius: 20px;
-    box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 30px;
-}
-
-.historiaReturn a{
-    display: inline-block;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s;
-    width: 70px;
-    font-size: 16px;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 20px 20px;
-    
-}
-
-.historiaReturn a:hover {
-    height: 34px;
-    width: 70px;
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-    border-radius: 20px 20px;
-    box-shadow: 0 8px 10px black;
-
 }
