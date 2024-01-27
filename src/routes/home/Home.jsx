@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <main class='allMain'>
             <div className='homeFoto'>
-                <h2>Congregració Vigatana dels Dolors </h2>
+                <h2>VENERABLE CONGREGRACIÓ DELS DOLORS DE VIC </h2>
             </div>
             <div class='homeHistoria'>
                 <div className='homeHistoriaIn'>

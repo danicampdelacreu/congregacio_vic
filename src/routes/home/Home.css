@@ -4,7 +4,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: white
+        background-color: rgba(244, 227, 187, 0.944);
     }
 
     .allMain h3 {
@@ -12,7 +12,6 @@
     }
 
     .homeFoto {
-        background-color: rgba(66, 73, 66, 0.317);
         height: 200px;
         width: 100%;
         display: flex;
@@ -26,7 +25,22 @@
         background-image: url('../../assets/img/Congracio_General.jpg');
         background-size: cover;
         background-position: center;
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 25% 80%, 0 100%);
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .homeFoto::after,
+    .homeFoto::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        /* Ajusta según sea necesario */
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
+
     }
 
     .homeFoto h2 {
@@ -37,12 +51,11 @@
         justify-content: center;
         /* Centra horizontalmente */
         text-align: center;
+        font-size: 30px;
         height: 100px;
         width: 100%;
         color: rgb(0, 0, 0);
-        background-color: rgba(255, 255, 255, 0.031);
-        backdrop-filter: blur(10px);
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 25% 80%, 0 100%);
+
     }
 
     .homeHistoria,
@@ -52,8 +65,7 @@
     .homeDonativo {
         width: calc(100% - 20px);
         margin: 0px 40px 40px 40px;
-        margin-bottom: 30px;
-        background-color: rgba(252, 252, 252, 0.214);
+        margin-bottom: 70px;
         border-radius: 20px;
         box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
         display: flex;
