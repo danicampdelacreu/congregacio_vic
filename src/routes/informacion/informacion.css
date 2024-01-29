@@ -120,9 +120,9 @@
     }
 
 
-    input[type="text"],
-    input[type="email"],
-    textarea {
+    .informacionMensaje input[type="text"],
+    .informacionMensaje input[type="email"],
+    .informacionMensaje textarea {
         height: 10px;
         width: 330px;
         padding: 10px;
@@ -142,7 +142,7 @@
     }
 
     /* Estilos para el botón */
-    input[type="submit"] {
+    .informacioMensaje input[type="submit"] {
         padding: 10px 20px;
         background-color: white;
         color: black;
