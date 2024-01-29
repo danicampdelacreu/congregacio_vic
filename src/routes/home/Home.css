@@ -5,6 +5,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: rgba(244, 227, 187, 0.944);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 
     .allMain h3 {
@@ -15,13 +16,10 @@
         height: 200px;
         width: 100%;
         display: flex;
-        /* Agregado para activar flexbox */
         align-items: center;
-        /* Centra verticalmente */
         justify-content: center;
-        /* Centra horizontalmente */
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         background-image: url('../../assets/img/Congracio_General.jpg');
         background-size: cover;
         background-position: center;
@@ -38,24 +36,19 @@
         left: 0;
         width: 100%;
         height: 30px;
-        /* Ajusta según sea necesario */
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
 
     }
 
     .homeFoto h2 {
         display: flex;
-        /* Agregado para activar flexbox */
         align-items: center;
-        /* Centra verticalmente */
         justify-content: center;
-        /* Centra horizontalmente */
         text-align: center;
         font-size: 30px;
         height: 100px;
         width: 100%;
         color: rgb(0, 0, 0);
-
     }
 
     .homeHistoria,
@@ -63,11 +56,9 @@
     .homeGaleria,
     .homeInformacion,
     .homeDonativo {
-        width: calc(100% - 20px);
-        margin: 0px 40px 40px 40px;
-        margin-bottom: 70px;
+        width: 400px;
+        margin: 0 auto 70px;
         border-radius: 20px;
-        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -124,9 +115,6 @@
         align-items: center;
     }
 
-
-
-
     .allMain a {
         display: inline-block;
         background-color: white;
@@ -150,7 +138,6 @@
         transform: scale(1.1);
         border-radius: 20px 20px;
         box-shadow: 0 8px 10px black;
-
     }
 }
 

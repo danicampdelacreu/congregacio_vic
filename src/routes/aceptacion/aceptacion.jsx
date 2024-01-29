@@ -10,9 +10,6 @@ export default function Privacidad() {
 
     return (
         <div className="privacidad">
-            <div className='linkReturn'>
-            <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
-            </div>
             <h3 className='first'>AVISO LEGAL</h3>
 
             <p>
@@ -313,7 +310,7 @@ export default function Privacidad() {
                 for services
             </p>
             <div className='linkReturn'>
-            <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
+            <Link to="/Informacion" onClick={scrollToTop}>Return</Link>
             </div>
         </div>
     );

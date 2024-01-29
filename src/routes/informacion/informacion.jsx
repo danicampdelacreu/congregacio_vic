@@ -8,6 +8,7 @@ export default function Informacion() {
 
     const [checkboxChecked, setCheckboxChecked] = useState(false);
     const form = useRef();
+    const informacionMensajeRef = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -42,10 +43,27 @@ export default function Informacion() {
         window.scrollTo(0, 0);
     };
 
+    const scrollToInformacionMensaje = () => {
+        // Hacer scroll hacia el elemento informacionMensaje
+        informacionMensajeRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className='informacionGeneral'>
             <div className='informacionFoto'>
                 <p>logo congrecacio</p>
+            </div>
+            
+            <div className='informacionUnete'>
+                <h2>UNIR-TE</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
+                <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info </a>
+            </div>
+
+            <div className='informacionOtras'>
+                <h2> MES INFO</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quo enim voluptatem sunt in repellendus eum debitis, iusto accusantium adipisci asperiores deleniti voluptas similique. Aperiam totam similique veritatis itaque voluptates!</p>
+                <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
             <div className='informacionDonativo'>
@@ -54,17 +72,7 @@ export default function Informacion() {
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>
 
-            <div className='informacionUnete'>
-                <h2>UNIR-TE</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
-            </div>
-
-            <div className='informacionOtras'>
-                <h2> MES INFO</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quo enim voluptatem sunt in repellendus eum debitis, iusto accusantium adipisci asperiores deleniti voluptas similique. Aperiam totam similique veritatis itaque voluptates!</p>
-            </div>
-
-            <div className="informacionMensaje">
+            <div className="informacionMensaje" ref={informacionMensajeRef}>
                 <p> Info: congregacioVic@gmail.com</p>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="contacto-name">
@@ -94,9 +102,10 @@ export default function Informacion() {
                     </div>
                 </form>
             </div>
+
             <div className="informacionReturn">
-                <Link to="/">Inici</Link>
-            </div>
+                    <Link to="/">Inici</Link>
+                </div>
         </div>
     )
 };

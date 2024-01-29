@@ -10,10 +10,6 @@ export default function FAQS() {
 
     return (
         <div className="faqsGeneral">
-            
-            <div className='linkReturn'>
-            <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
-            </div>
             <h3 className='first'>Preguntas Frecuentes - Congregracio de Vic</h3>
 
             <h4 className='first'>Preguntas Generales:</h4>
@@ -104,7 +100,7 @@ export default function FAQS() {
             <h4>6. Contacto</h4>
             <p className='lastP'>Si tienes alguna pregunta o inquietud sobre nuestra política de cookies, por favor, contáctanos a través de pastisseriacasellas@gmail.com.</p>
             <div className='linkReturn'>
-            <Link to="/Informacion" onClick={scrollToTop}>Tornar a informacio</Link>
+            <Link to="/Informacion" onClick={scrollToTop}>- Info</Link>
             </div>
         </div>
     );

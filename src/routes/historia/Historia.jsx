@@ -5,9 +5,7 @@ import "./Historia.css"
 export default function Historia() {
     return (
         <div className='historiaGeneral'>
-            <div className='historiaFoto'>
-                <p>foto historia</p>
-            </div>
+            <div className='historiaFoto'></div>
             <div className='historiaExpli'>
                 <h2>Historia</h2>
                 <p>
