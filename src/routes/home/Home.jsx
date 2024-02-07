@@ -17,7 +17,7 @@ export default function Home() {
 
             <div class='homeProssessor'>
                 <div className='homeProssessorIn'>
-                    <h3>Prossessor</h3>
+                    <h3>Processor</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                     <Link to="/Prossessor" onClick={scrollToTop}>+ Info</Link>
                 </div>

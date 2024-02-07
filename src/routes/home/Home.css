@@ -71,8 +71,8 @@
     }
 
     .homeProssessor {
-        background-image: url('../../assets/img/Historia.jpg');
-        background-size: cover;
+        background-image: url('../../assets/img/logo.png');
+        background-size: 50px;
         background-position: center;
     }
 

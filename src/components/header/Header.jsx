@@ -32,7 +32,7 @@ export default function Header() {
             </li>
             <li>
               <Link to="/prossessor" onClick={closeMenu}>
-                PROSSESSOR
+                PROCESSOR
               </Link>
             </li>
             <li>
