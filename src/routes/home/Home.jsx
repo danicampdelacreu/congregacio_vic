@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
 
-import General from '../../assets/img/Congracio_General.jpg';
-
 
 export default function Home() {
 
@@ -16,6 +14,15 @@ export default function Home() {
             <div className='homeFoto'>
                 <h2>VENERABLE CONGREGRACIÓ DELS DOLORS DE VIC </h2>
             </div>
+
+            <div class='homeProssessor'>
+                <div className='homeProssessorIn'>
+                    <h3>Prossessor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <Link to="/Prossessor" onClick={scrollToTop}>+ Info</Link>
+                </div>
+            </div>
+
             <div class='homeHistoria'>
                 <div className='homeHistoriaIn'>
                     <h3>Historia</h3>
@@ -53,6 +60,14 @@ export default function Home() {
                     <h3>Fes un donatiu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
+                </div>
+            </div>
+
+            <div class='homeEspiritual'>
+                <div className='homeEspiritualIn'>
+                    <h3>Espiritualitat</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <Link to="/Espiritual" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
         </main>

@@ -31,6 +31,11 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link to="/prossessor" onClick={closeMenu}>
+                PROSSESSOR
+              </Link>
+            </li>
+            <li>
               <Link to="/historia" onClick={closeMenu}>
                 HISTORIA
               </Link>
@@ -53,6 +58,11 @@ export default function Header() {
             <li>
               <Link to="/donativo" onClick={closeMenu}>
                 DONATIVOS
+              </Link>
+            </li>
+            <li>
+              <Link to="/espiritual" onClick={closeMenu}>
+                ESPIRITUALITAT
               </Link>
             </li>
           </ul>

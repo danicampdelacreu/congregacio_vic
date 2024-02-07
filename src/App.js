@@ -13,6 +13,9 @@ import Informacion from './routes/informacion/Informacion';
 import Donativo from './routes/donativo/Donativo';
 import FAQS from './routes/FAQS/FAQS';
 import Aceptacion from './routes/aceptacion/Aceptacion';
+import Prossessor from './routes/prossessor/Prossessor';
+import Espiritual from './routes/espiritual/Espiritual';
+
 
 function App() {
   return (
@@ -27,6 +30,8 @@ function App() {
         <Route path='/informacion' element = { <Informacion/> }/>
         <Route path='/faqs' element = { <FAQS/> } />
         <Route path='/aceptacion' element = { <Aceptacion/> } />
+        <Route path='/prossessor' element = { <Prossessor/> } />
+        <Route path='/espiritual' element = { <Espiritual/> } />
       </Routes>
       <Footer/>
       </BrowserRouter>

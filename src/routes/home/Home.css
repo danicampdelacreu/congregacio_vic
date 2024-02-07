@@ -55,7 +55,9 @@
     .homeNoticias,
     .homeGaleria,
     .homeInformacion,
-    .homeDonativo {
+    .homeDonativo,
+    .homeProssessor,
+    .homeEspiritual {
         width: 400px;
         margin: 0 auto 70px;
         border-radius: 20px;
@@ -66,6 +68,12 @@
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
+    }
+
+    .homeProssessor {
+        background-image: url('../../assets/img/Historia.jpg');
+        background-size: cover;
+        background-position: center;
     }
 
     .homeHistoria {
@@ -98,11 +106,19 @@
         background-position: center;
     }
 
+    .homeEspiritual {
+        background-image: url('../../assets/img/Donativo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
     .homeHistoriaIn,
     .homeNoticiasIn,
     .homeGaleriaIn,
     .homeInformacionIn,
-    .homeDonativoIn {
+    .homeDonativoIn,
+    .homeProssessorIn,
+    .homeEspiritualIn {
         position: relative;
         background-color: rgba(0, 0, 0, 0.284);
         border-radius: 20px;
