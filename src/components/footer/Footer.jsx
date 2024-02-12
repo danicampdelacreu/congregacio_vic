@@ -6,9 +6,11 @@ export default function Footer() {
         <div className='footerGeneral'>
 
             <div className="footerPatro">
-                <p>logo</p>
-                <p>logo</p>
-                <p>logo</p>
+                <p>Aj.Vic</p>
+                <p>F. Girbau</p>
+                <p>F.PuigPorret</p>
+                <p>Forum Vicus</p>
+                <p>Aparcaments D'Ausa</p>
             </div>
             <div className='footerLinkDani'>
                 <p>
