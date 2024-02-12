@@ -11,15 +11,12 @@ export default function Home() {
 
     return (
         <main class='allMain'>
-            <div className='homeFoto'>
-                <h2>VENERABLE CONGREGRACIÓ DELS DOLORS DE VIC </h2>
-            </div>
-
-            <div class='homeProssessor'>
-                <div className='homeProssessorIn'>
-                    <h3>Processor</h3>
+            <div className='homeFoto'></div>
+            <div class='homeProcesso'>
+                <div className='homeProcessoIn'>
+                    <h3>Processó</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                    <Link to="/Prossessor" onClick={scrollToTop}>+ Info</Link>
+                    <Link to="/Processo" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
 
@@ -47,17 +44,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div class='homeInformacion'>
-                <div className='homeInformacionIn'>
-                    <h3>Informacio General</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
-                </div>
-            </div>
-
             <div class='homeDonativo'>
                 <div className='homeDonativoIn'>
-                    <h3>Fes un donatiu</h3>
+                    <h3>Ajuda al patrimoni</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
                 </div>
@@ -68,6 +57,14 @@ export default function Home() {
                     <h3>Espiritualitat</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Espiritual" onClick={scrollToTop}>+ Info</Link>
+                </div>
+            </div>
+
+            <div class='homeInformacion'>
+                <div className='homeInformacionIn'>
+                    <h3>Informacio General</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
         </main>

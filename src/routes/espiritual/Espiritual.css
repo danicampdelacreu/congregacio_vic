@@ -1,0 +1,24 @@
+/* Tamaño movil*/
+@media (max-width: 580px) {
+
+    .espiritualGeneral {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(244, 227, 187, 0.944);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .espiritualCelebracions,
+    .espiritualEspais{
+        width: 400px;
+        margin: 0 auto 70px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}

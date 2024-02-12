@@ -50,9 +50,7 @@ export default function Informacion() {
 
     return (
         <div className='informacionGeneral'>
-            <div className='informacionFoto'>
-                <p>logo congrecacio</p>
-            </div>
+            <div className='informacionFoto'></div>
             
             <div className='informacionUnete'>
                 <h2>UNIR-TE</h2>
@@ -67,7 +65,7 @@ export default function Informacion() {
             </div>
 
             <div className='informacionDonativo'>
-                <h2>DONATIU</h2>
+                <h2>AJUDA</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>

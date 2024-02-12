@@ -12,22 +12,22 @@ export default function Galeria() {
                 <h2>Galeria</h2>
                 <div className='carpetaFotos'>
                     <div className='foto1'>
-                        <p>Foto 1</p>
+                        <h3>Foto 1</h3>
                     </div>
                     <div className='foto2'>
-                        <p>Foto 2</p>
+                        <h3>Foto 2</h3>
                     </div>
                     <div className='foto3'>
-                        <p>Foto 3</p>
+                        <h3>Foto 3</h3>
                     </div>
                     <div className='foto4'>
-                        <p>foto 4</p>
+                        <h3>foto 4</h3>
                     </div>
                     <div className='foto5'>
-                        <p>Foto 5</p>
+                        <h3>Foto 5</h3>
                     </div>
                     <div className='foto6'>
-                        <p>Foto 6</p>
+                        <h3>Foto 6</h3>
                     </div>
                 </div>
             </div>

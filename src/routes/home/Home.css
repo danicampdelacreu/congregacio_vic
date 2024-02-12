@@ -20,24 +20,12 @@
         justify-content: center;
         text-align: center;
         margin-bottom: 80px;
-        background-image: url('../../assets/img/Congracio_General.jpg');
-        background-size: cover;
-        background-position: center;
+        background-image: url('../../assets/img/logo.png');
+        background-size: 160px;
+        background-repeat: no-repeat;
         background-position: center;
         position: relative;
         overflow: hidden;
-    }
-
-    .homeFoto::after,
-    .homeFoto::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 30px;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
-
     }
 
     .homeFoto h2 {
@@ -56,9 +44,10 @@
     .homeGaleria,
     .homeInformacion,
     .homeDonativo,
-    .homeProssessor,
+    .homeProcesso,
     .homeEspiritual {
-        width: 400px;
+        width: 300px;
+        height: 200px;
         margin: 0 auto 70px;
         border-radius: 20px;
         display: flex;
@@ -70,10 +59,11 @@
         box-sizing: border-box;
     }
 
-    .homeProssessor {
+    .homeProcesso {
         background-image: url('../../assets/img/logo.png');
         background-size: 50px;
         background-position: center;
+        background-color: rgba(189, 174, 140, 0.944);
     }
 
     .homeHistoria {
@@ -117,7 +107,7 @@
     .homeGaleriaIn,
     .homeInformacionIn,
     .homeDonativoIn,
-    .homeProssessorIn,
+    .homeProcessoIn,
     .homeEspiritualIn {
         position: relative;
         background-color: rgba(0, 0, 0, 0.284);
