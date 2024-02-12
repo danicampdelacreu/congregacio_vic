@@ -48,3 +48,17 @@
 
     }
 }
+/* Tamaño Tablet Vertical*/
+@media (min-width: 580px) and (max-width: 768px) {
+
+}
+
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
+    
+}
