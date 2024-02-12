@@ -11,7 +11,9 @@ export default function Home() {
 
     return (
         <main class='allMain'>
+
             <div className='homeFoto'></div>
+
             <div class='homeProcesso'>
                 <div className='homeProcessoIn'>
                     <h3>Processó</h3>
@@ -67,6 +69,7 @@ export default function Home() {
                     <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
+            
         </main>
     );
 };

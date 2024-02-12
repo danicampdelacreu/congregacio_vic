@@ -5,7 +5,9 @@ import "./Historia.css"
 export default function Historia() {
     return (
         <div className='historiaGeneral'>
+
             <div className='historiaFoto'></div>
+
             <div className='historiaExpli'>
                 <h2>Historia</h2>
                 <p>
@@ -16,9 +18,11 @@ export default function Historia() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consectetur sapiente esse adipisci commodi exercitationem tempore, error eos ea excepturi numquam itaque! Commodi aut velit aperiam ratione, inventore laudantium illo.
                 </p>
             </div>
+
             <div className="historiaReturn">
                 <Link to="/">Inici</Link>
             </div>
+            
         </div>
     );
 };

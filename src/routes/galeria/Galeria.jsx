@@ -5,11 +5,14 @@ import "./Galeria.css"
 export default function Galeria() {
     return (
         <div className='galeriaGeneral'>
+
             <div className='galeriaFoto'>
                 <p>aqui va la foto</p>
             </div>
+
             <div className='galeriaExpli'>
                 <h2>Galeria</h2>
+
                 <div className='carpetaFotos'>
                     <div className='foto1'>
                         <h3>Foto 1</h3>
@@ -29,11 +32,15 @@ export default function Galeria() {
                     <div className='foto6'>
                         <h3>Foto 6</h3>
                     </div>
+
                 </div>
+
             </div>
+
             <div className="galeriaReturn">
                 <Link to="/">Inici</Link>
             </div>
+
         </div>
     );
 };

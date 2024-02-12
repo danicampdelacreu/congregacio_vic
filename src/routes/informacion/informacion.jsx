@@ -50,6 +50,7 @@ export default function Informacion() {
 
     return (
         <div className='informacionGeneral'>
+
             <div className='informacionFoto'></div>
             
             <div className='informacionUnete'>
@@ -73,16 +74,20 @@ export default function Informacion() {
             <div className="informacionMensaje" ref={informacionMensajeRef}>
                 <p> Info: congregacioVic@gmail.com</p>
                 <form ref={form} onSubmit={sendEmail}>
+
                     <div className="contacto-name">
                         <input type="text" name="user_name" placeholder='Nom' />
                     </div>
+
                     <div className="contacto-email">
 
                         <input type="email" name="user_email" placeholder='Email' />
                     </div>
+
                     <div className="contacto-message">
                         <textarea name="message" placeholder='Missatge' />
                     </div>
+
                     <div className="checkbox">
                         <label className='check'>
                             <input type="checkbox" checked={checkboxChecked} onChange={handleCheckboxChange} />
@@ -95,15 +100,19 @@ export default function Informacion() {
                             </Link>
                         </label>
                     </div>
+
                     <div className="contacto-submit">
                         <input type="submit" value="Enviar" />
                     </div>
+
                 </form>
+
             </div>
 
             <div className="informacionReturn">
                     <Link to="/">Inici</Link>
-                </div>
+            </div>
+            
         </div>
     )
 };

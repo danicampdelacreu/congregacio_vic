@@ -5,9 +5,11 @@ import "./Noticias.css"
 export default function Noticias() {
     return (
         <div className='noticiasGeneral'>
+
             <div className='noticiasFoto'>
                 <p>foto Noticies</p>
             </div>
+
             <div className='noticiasExpli'>
                 <h2>Noticies</h2>
                 <div className='evento1'>
@@ -40,10 +42,13 @@ export default function Noticias() {
                     <h5>Data event</h5>
                     <p>explicacio event</p>
                 </div>
+
             </div>
+
             <div className="noticiasReturn">
                 <Link to="/">Inici</Link>
             </div>
+            
         </div>
     );
 };

@@ -7,7 +7,9 @@ export default function Donativo() {
 
     return (
         <div className='donativoGeneral'>
+
             <div className='donativoFoto'></div>
+
             <div className='donativoExpli'>
                 <h2>Ajuda al patrimoni</h2>
                 <p>
@@ -20,6 +22,7 @@ export default function Donativo() {
             <div className="donativoReturn">
                 <Link to="/">Inici</Link>
             </div>
+            
         </div>
     );
 };
