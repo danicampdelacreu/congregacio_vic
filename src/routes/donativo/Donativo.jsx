@@ -1,9 +1,14 @@
 
 import { Link } from 'react-router-dom';
 
+
 import "./Donativo.css"
 
 export default function Donativo() {
+
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
 
     return (
         <div className='donativoGeneral'>
@@ -20,9 +25,11 @@ export default function Donativo() {
             </div>
 
             <div className="donativoReturn">
-                <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
-            
+
         </div>
     );
 };

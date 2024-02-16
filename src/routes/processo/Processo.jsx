@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import "./Processo.css";
 
 export default function Processo() {
+
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
+    
     return (
         <div className="processoGeneral">
             <div className="processoFoto"></div>
@@ -49,9 +54,11 @@ export default function Processo() {
             </div>
 
             <div className="processoReturn">
-                <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
-            
+
         </div>
     )
 }

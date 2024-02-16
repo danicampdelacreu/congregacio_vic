@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import "./Historia.css"
 
 export default function Historia() {
+
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className='historiaGeneral'>
 
@@ -20,9 +25,11 @@ export default function Historia() {
             </div>
 
             <div className="historiaReturn">
-                <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
-            
+
         </div>
     );
 };

@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import "./Espiritual.css"
 
 export default function Espirtual() {
+
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className="espiritualGeneral">
 
@@ -17,9 +22,11 @@ export default function Espirtual() {
             </div>
 
             <div className="espiritualReturn">
-                <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
-            
+
         </div>
     )
 }

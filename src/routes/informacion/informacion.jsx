@@ -48,11 +48,15 @@ export default function Informacion() {
         informacionMensajeRef.current.scrollIntoView({ behavior: 'smooth' });
     };
 
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className='informacionGeneral'>
 
             <div className='informacionFoto'></div>
-            
+
             <div className='informacionUnete'>
                 <h2>UNIR-TE</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
@@ -110,9 +114,11 @@ export default function Informacion() {
             </div>
 
             <div className="informacionReturn">
-                    <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
-            
+
         </div>
     )
 };

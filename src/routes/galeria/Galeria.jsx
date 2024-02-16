@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import "./Galeria.css"
 
 export default function Galeria() {
+
+    const handleReturnClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <div className='galeriaGeneral'>
 
@@ -38,7 +43,9 @@ export default function Galeria() {
             </div>
 
             <div className="galeriaReturn">
-                <Link to="/">Inici</Link>
+                <Link to="/" onClick={handleReturnClick}>
+                    Inicio
+                </Link>
             </div>
 
         </div>
