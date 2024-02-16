@@ -4,7 +4,7 @@ import "./Noticias.css"
 
 export default function Noticias() {
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
     return (
@@ -50,7 +50,7 @@ export default function Noticias() {
             </div>
 
             <div className="noticiasReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

@@ -4,7 +4,7 @@ import "./Galeria.css"
 
 export default function Galeria() {
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
 
@@ -43,7 +43,7 @@ export default function Galeria() {
             </div>
 
             <div className="galeriaReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

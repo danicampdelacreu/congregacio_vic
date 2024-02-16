@@ -4,7 +4,7 @@ import "./Historia.css"
 
 export default function Historia() {
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
 
@@ -25,7 +25,7 @@ export default function Historia() {
             </div>
 
             <div className="historiaReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

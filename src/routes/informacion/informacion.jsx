@@ -48,7 +48,7 @@ export default function Informacion() {
         informacionMensajeRef.current.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
 
@@ -114,7 +114,7 @@ export default function Informacion() {
             </div>
 
             <div className="informacionReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

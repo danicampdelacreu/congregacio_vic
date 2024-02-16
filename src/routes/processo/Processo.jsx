@@ -4,7 +4,7 @@ import "./Processo.css";
 
 export default function Processo() {
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
     
@@ -54,7 +54,7 @@ export default function Processo() {
             </div>
 
             <div className="processoReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

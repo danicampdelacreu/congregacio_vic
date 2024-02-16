@@ -4,7 +4,7 @@ import "./Espiritual.css"
 
 export default function Espirtual() {
 
-    const handleReturnClick = () => {
+    const returnClick = () => {
         window.scrollTo(0, 0);
     };
 
@@ -22,7 +22,7 @@ export default function Espirtual() {
             </div>
 
             <div className="espiritualReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>

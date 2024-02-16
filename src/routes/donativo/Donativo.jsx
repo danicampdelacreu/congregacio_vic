@@ -1,13 +1,15 @@
-
+import React from 'react';
 import { Link } from 'react-router-dom';
-
 
 import "./Donativo.css"
 
 export default function Donativo() {
 
-    const handleReturnClick = () => {
-        window.scrollTo(0, 0);
+    const returnClick = () => {
+        window.scrollTo(0,0);
+    };
+    const vullAjudarClick = () => {
+        window.scrollTo(0, document.body.scrollHeight);
     };
 
     return (
@@ -22,10 +24,13 @@ export default function Donativo() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore dolorem libero in unde. Odio sunt ad adipisci quis doloremque nobis placeat nemo obcaecati. Modi labore repellendus ea temporibus omnis?
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt recusandae quas impedit iusto culpa ex nobis dignissimos id ipsa porro eos distinctio, nisi modi saepe tempore voluptas consequatur facilis? Ut?
                 </p>
+                <Link to="/Informacion" onClick={vullAjudarClick}>
+                    Vull Ajudar
+                </Link>
             </div>
 
             <div className="donativoReturn">
-                <Link to="/" onClick={handleReturnClick}>
+                <Link to="/" onClick={returnClick}>
                     Inicio
                 </Link>
             </div>
