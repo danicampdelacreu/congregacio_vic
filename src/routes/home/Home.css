@@ -13,31 +13,22 @@
     }
 
     .homeFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-bottom: 80px;
+        margin-top: 20px;
+        margin-bottom: 50px;
         background-image: url('../../assets/img/logo.png');
-        background-size: 160px;
+        background-size: 120px;
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
         overflow: hidden;
     }
 
-    .homeFoto h2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-size: 30px;
-        height: 100px;
-        width: 100%;
-        color: rgb(0, 0, 0);
-    }
 
     .homeHistoria,
     .homeNoticias,
