@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     .galeriaGeneral {
         justify-content: center;
         align-items: center;
@@ -94,7 +94,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 580px) and (max-width: 768px) {}
+@media (min-width: 650px) and (max-width: 768px) {}
 
 /* Tamaño Tablet Horizontal*/
 @media (min-width: 768px) and (max-width: 1024px) {}

@@ -1,5 +1,8 @@
+/* import Google Fonts style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 /* Tamaño movil*/
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     .headerNav {
         position: fixed;
         top: 0;
@@ -35,13 +38,17 @@
     .headerContent {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .pageTitle {
-        margin-left: 30px;
+        font-family: "Roboto Slab", serif;
         font-size: 14px;
         display: inline-block;
         vertical-align: middle;
+        flex-grow: 1;
+        text-align: right;
+        margin-right: 60px;
     }
 
     .headerNav.open ul {
@@ -59,6 +66,9 @@
         color: black;
         border-radius: 20px 20px;
         z-index: 2;
+        order: -1;
+        margin-left: 0;
+        margin-right: 60px;
     }
 
     .closeButton {
@@ -100,7 +110,112 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 580px) and (max-width: 768px) {}
+@media (min-width: 650px) and (max-width: 768px) {
+    .headerNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        transition: top 0.3s ease;
+        /* Agregar transición para suavizar el cambio de posición */
+        z-index: 1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .headerNav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        padding: 40px;
+        background: rgba(185, 171, 140, 0.944);
+        position: absolute;
+        top: 40px;
+        left: 0;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 35px;
+        box-shadow: inset 0 0 10px rgba(176, 173, 173, 3);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .headerContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pageTitle {
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: middle;
+        flex-grow: 1;
+        text-align: right;
+        margin-right: 60px;
+    }
+
+    .headerNav.open ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuButton {
+        background: rgba(252, 252, 252, 0.398);
+        border: none;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+        color: black;
+        border-radius: 20px 20px;
+        z-index: 2;
+        order: -1;
+        margin-left: 0;
+        margin-right: 60px;
+    }
+
+    .closeButton {
+        background: rgba(60, 54, 54, 0.001);
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        font-size: 22px;
+        color: white;
+        margin-left: 120px;
+    }
+
+    .closeButton:hover {
+        color: black;
+
+    }
+
+    .headerGeneral {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(244, 223, 175, 0.944);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .headerNav a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .headerNav li {
+        margin-right: 0;
+        margin-bottom: 20px;
+
+    }
+}
 
 /* Tamaño Tablet Horizontal*/
 @media (min-width: 768px) and (max-width: 1024px) {}

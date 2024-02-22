@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 580px) {
+@media (max-width: 650px) {
 
     .donativoGeneral {
         justify-content: center;
@@ -78,7 +78,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 580px) and (max-width: 768px) {
+@media (min-width: 650px) and (max-width: 768px) {
 
 }
 
