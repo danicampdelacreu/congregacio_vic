@@ -26,7 +26,7 @@ export default function Historia() {
 
             <div className="historiaReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 

@@ -10,9 +10,7 @@ export default function Noticias() {
     return (
         <div className='noticiasGeneral'>
 
-            <div className='noticiasFoto'>
-                <p>foto Noticies</p>
-            </div>
+            <div className='noticiasFoto'></div>
 
             <div className='noticiasExpli'>
                 <h2>Noticies</h2>
@@ -51,7 +49,7 @@ export default function Noticias() {
 
             <div className="noticiasReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 

@@ -13,14 +13,14 @@ export default function Processo() {
             <div className="processoFoto"></div>
 
             <div className="processoTitul">
-                <h1>PROCESSÓ</h1>
+                <h2>Processó</h2>
             </div>
 
             <div className="processoDia">
                 <p>Diumenge, 24 de Març</p>
             </div>
 
-            <div className="processoExplicacio">
+            <div className="processoExpli">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam distinctio similique assumenda, nostrum dolorem officiis temporibus ea harum quo, sed eius repudiandae eligendi veritatis cumque ipsa nemo perspiciatis! Aliquam, rerum.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo minima ex quas id vero, pariatur, atque voluptate repellat temporibus quam sint autem iusto deleniti commodi fuga. Sed, neque et.
                 </p>
@@ -55,7 +55,7 @@ export default function Processo() {
 
             <div className="processoReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 

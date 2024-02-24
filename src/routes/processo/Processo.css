@@ -5,7 +5,6 @@
         align-items: center;
         text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 
     .processoFoto {
@@ -15,7 +14,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-bottom: 30px;
         background-image: url('../../assets/img/logo.png');
         background-size: 160px;
         background-position: center;
@@ -73,6 +71,24 @@
         transform: scale(1.1);
         border-radius: 20px 20px;
         box-shadow: 0 8px 10px black;
+    }
+    .processoExpli {
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: rgba(244, 227, 187, 0.944);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        line-height: 1.8;
+        box-sizing: border-box;
+        padding: 50px;
+    }
+
+    .processoTitul h2 {
+        margin: 40px;
     }
     
 }

@@ -31,7 +31,7 @@ export default function Donativo() {
 
             <div className="donativoReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 

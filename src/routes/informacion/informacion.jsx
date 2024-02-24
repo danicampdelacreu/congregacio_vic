@@ -58,19 +58,19 @@ export default function Informacion() {
             <div className='informacionFoto'></div>
 
             <div className='informacionUnete'>
-                <h2>UNIR-TE</h2>
+                <h2>Unir-te</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info </a>
             </div>
 
             <div className='informacionOtras'>
-                <h2> MES INFO</h2>
+                <h2> Més info</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quo enim voluptatem sunt in repellendus eum debitis, iusto accusantium adipisci asperiores deleniti voluptas similique. Aperiam totam similique veritatis itaque voluptates!</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
             <div className='informacionDonativo'>
-                <h2>AJUDA</h2>
+                <h2>Ajuda</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>

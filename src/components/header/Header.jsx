@@ -34,7 +34,7 @@ export default function Header() {
             </li>
             <li>
               <Link to="/" onClick={closeMenu}>
-                HOME
+                INICI
               </Link>
             </li>
             <li>

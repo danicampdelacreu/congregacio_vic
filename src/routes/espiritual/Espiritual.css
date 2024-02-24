@@ -6,7 +6,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: rgba(244, 227, 187, 0.944);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
     .espiritualCelebracions,
     .espiritualEspais,
@@ -45,7 +44,18 @@
         transform: scale(1.1);
         border-radius: 20px 20px;
         box-shadow: 0 8px 10px black;
+    }
 
+    .espiritualCelebracions h2{
+        margin-top:40px
+
+    }
+    .espiritualCelebracions  {
+        margin-bottom: 20px;
+    }
+    .espiritualEspais h2 {
+        margin-top:40px;
+        margin-top: 0;
     }
 }
 /* Tamaño Tablet Vertical*/
