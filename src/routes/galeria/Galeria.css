@@ -9,19 +9,21 @@
     }
 
     .carpetaFotos {
+        width:auto;
+        margin:10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .foto1,
-    .foto2,
-    .foto3,
-    .foto4,
-    .foto5,
-    .foto6 {
-        width: 200px;
-        height: 150px;
+    .gfoto1,
+    .gfoto2,
+    .gfoto3,
+    .gfoto4,
+    .gfoto5,
+    .gfoto6 {
+        width: 160px;
+        height: 160px;
         margin-bottom: 40px;
         background-color: rgba(245, 245, 245, 0.34);
         border-radius: 20px;

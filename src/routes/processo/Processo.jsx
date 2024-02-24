@@ -27,27 +27,27 @@ export default function Processo() {
             </div>
 
             <div className='processoFotos'>
-                <div className='foto1'>
+                <div className='pfoto1'>
                     <h3>Foto 1</h3>
                     <p>Explicacio</p>
                 </div>
-                <div className='foto2'>
+                <div className='pfoto2'>
                     <h3>Foto 2</h3>
                     <p>Explicacio</p>
                 </div>
-                <div className='foto3'>
+                <div className='pfoto3'>
                     <h3>Foto 3</h3>
                     <p>Explicacio</p>
                 </div>
-                <div className='foto4'>
+                <div className='pfoto4'>
                     <h3>foto 4</h3>
                     <p>Explicacio</p>
                 </div>
-                <div className='foto5'>
+                <div className='pfoto5'>
                     <h3>Foto 5</h3>
                     <p>Explicacio</p>
                 </div>
-                <div className='foto6'>
+                <div className='pfoto6'>
                     <h3>Foto 6</h3>
                     <p>Explicacio</p>
                 </div>

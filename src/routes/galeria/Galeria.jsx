@@ -11,30 +11,28 @@ export default function Galeria() {
     return (
         <div className='galeriaGeneral'>
 
-            <div className='galeriaFoto'>
-                <p>aqui va la foto</p>
-            </div>
+            <div className='galeriaFoto'></div>
 
             <div className='galeriaExpli'>
-                <h2>Galeria</h2>
+                <h2>2015</h2>
 
                 <div className='carpetaFotos'>
-                    <div className='foto1'>
+                    <div className='gfoto1'>
                         <h3>Foto 1</h3>
                     </div>
-                    <div className='foto2'>
+                    <div className='gfoto2'>
                         <h3>Foto 2</h3>
                     </div>
-                    <div className='foto3'>
+                    <div className='gfoto3'>
                         <h3>Foto 3</h3>
                     </div>
-                    <div className='foto4'>
+                    <div className='gfoto4'>
                         <h3>foto 4</h3>
                     </div>
-                    <div className='foto5'>
+                    <div className='gfoto5'>
                         <h3>Foto 5</h3>
                     </div>
-                    <div className='foto6'>
+                    <div className='gfoto6'>
                         <h3>Foto 6</h3>
                     </div>
 
