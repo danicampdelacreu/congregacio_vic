@@ -115,7 +115,7 @@ export default function Informacion() {
 
             <div className="informacionReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 
