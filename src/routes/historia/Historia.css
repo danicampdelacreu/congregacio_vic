@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .historiaGeneral {
         justify-content: center;
         align-items: center;
@@ -8,15 +8,15 @@
     }
 
     .historiaFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         background-image: url('../../assets/img/HistoriaIn.jpg');
+        background-size: 120px;
         background-size: cover;
-        background-position: center;
         background-position: center;
         position: relative;
         overflow: hidden;
@@ -46,11 +46,12 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
+        font-size: 14px;
     }
 
     .historiaExpli h2 {
+        font-size: 18px;
         margin: 40px;
     }
 
@@ -60,8 +61,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -80,7 +81,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .historiaGeneral {
         justify-content: center;
         align-items: center;
@@ -89,15 +90,15 @@
     }
 
     .historiaFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         background-image: url('../../assets/img/HistoriaIn.jpg');
+        background-size: 120px;
         background-size: cover;
-        background-position: center;
         background-position: center;
         position: relative;
         overflow: hidden;
@@ -127,11 +128,12 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
+        font-size: 16px;
     }
 
     .historiaExpli h2 {
+        font-size: 20px;
         margin: 40px;
     }
 

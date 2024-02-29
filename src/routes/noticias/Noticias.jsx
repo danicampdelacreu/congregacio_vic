@@ -11,9 +11,11 @@ export default function Noticias() {
         <div className='noticiasGeneral'>
 
             <div className='noticiasFoto'></div>
-
+            <div className='noticiasTitul'>
+                <h2>NOTICIES</h2>
+            </div>
             <div className='noticiasExpli'>
-                <h2>Noticies</h2>
+
                 <div className='evento1'>
                     <h4>Titul event</h4>
                     <h5>Data event</h5>
@@ -22,7 +24,7 @@ export default function Noticias() {
                 <div className='evento2'>
                     <h4>Titul event</h4>
                     <h5>Data event</h5>
-                    <p>explicacio event</p>
+                    <p>explicacio event,explicacio event,explicacio event,explicacio event,explicacio event</p>
                 </div>
                 <div className='evento3'>
                     <h4>Titul event</h4>
