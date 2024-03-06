@@ -128,7 +128,7 @@ export default function Privacidad() {
                 de cookies y para impedir su instalación en su equipo. Por favor, consulte las instrucciones
                 de su navegador para ampliar esta información
             </p>
-            <h5>Política de enlaces</h5>
+            <h5>POLITICA DE ENLACES</h5>
             <p>
                 Desde el sitio web, es posible que se redirija a contenidos de terceros sitios web. Dado que
                 el RESPONSABLE no puede controlar siempre los contenidos introducidos por los terceros en sus
@@ -157,7 +157,7 @@ export default function Privacidad() {
                 de programación, o que acontezcan causas de fuerza mayor, catástrofes naturales,
                 huelgas o circunstancias semejantes que hagan imposible el acceso a la página web.
             </p>
-            <h5>Direcciones IP</h5>
+            <h5>DIRECCIONES IP</h5>
             <p>
                 Los servidores del sitio web podrán detectar de manera automática la dirección IP y
                 el nombre de dominio utilizados por el usuario. Una dirección IP es un número asignado
@@ -198,7 +198,7 @@ export default function Privacidad() {
                 y servicios, o de sus colaboradores o proveedores con los que éste haya alcanzado algún
                 acuerdo de promoción. En este caso, los terceros nunca tendrán acceso a los datos personales.
             </p>
-            <h5>Realizar estudios estadísticos.</h5>
+            <h5>REALIZAR ESTUDIOS ESTADISTICOS</h5>
             <p>
                 Tramitar encargos, solicitudes o cualquier tipo de petición que sea realizada por el
                 usuario a través de cualquiera de las formas de contacto que se ponen a su disposición.
@@ -230,7 +230,7 @@ export default function Privacidad() {
                 Comunicación de los datos: No se comunicarán los datos a terceros, salvo obligación legal.
             </p>
 
-            <h5>Derechos que asisten al Usuario:</h5>
+            <h5>DERECHOS QUE ASIENTEN AL ASUARIO:</h5>
 
             <p>
                 – Derecho a retirar el consentimiento en cualquier momento.

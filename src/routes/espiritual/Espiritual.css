@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
 
     .espiritualGeneral {
         display: flex;
@@ -8,11 +8,20 @@
         background-color: rgba(244, 227, 187, 0.944);
     }
 
+    .espiritualGeneral h2 {
+        font-size: 18px;
+        margin-top: 40px
+    }
+
+    .espiritualGeneral p {
+        font-size: 14px;
+    }
+
     .espiritualCelebracions,
     .espiritualEspais,
     .espiritualReturn {
         width: 400px;
-        margin: 0 auto 70px;
+        margin: 0 auto 0px;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -29,8 +38,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -45,24 +54,11 @@
         transform: scale(1.1);
         border-radius: 20px 20px;
         box-shadow: 0 8px 10px black;
-    }
-
-    .espiritualCelebracions h2 {
-        margin-top: 40px
-    }
-
-    .espiritualCelebracions {
-        margin-bottom: 20px;
-    }
-
-    .espiritualEspais h2 {
-        margin-top: 40px;
-        margin-top: 0;
     }
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .espiritualGeneral {
         display: flex;
         flex-wrap: wrap;
@@ -70,11 +66,20 @@
         background-color: rgba(244, 227, 187, 0.944);
     }
 
+    .espiritualGeneral h2 {
+        font-size: 20px;
+        margin-top: 40px
+    }
+
+    .espiritualGeneral p {
+        font-size: 16px;
+    }
+    
     .espiritualCelebracions,
     .espiritualEspais,
     .espiritualReturn {
         width: 400px;
-        margin: 0 auto 70px;
+        margin: 0 auto 0px;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -91,8 +96,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -107,19 +112,6 @@
         transform: scale(1.1);
         border-radius: 20px 20px;
         box-shadow: 0 8px 10px black;
-    }
-
-    .espiritualCelebracions h2 {
-        margin-top: 40px
-    }
-
-    .espiritualCelebracions {
-        margin-bottom: 20px;
-    }
-
-    .espiritualEspais h2 {
-        margin-top: 40px;
-        margin-top: 0;
     }
 }
 

@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .privacidad {
         padding: 40px;
         justify-content: center;
@@ -8,14 +8,24 @@
         background-color: rgba(244, 227, 187, 0.944);
     }
 
+    .privacidad h3 {
+        font-size: 18px;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 14px;
+    }
+
     .linkReturn a {
         display: inline-block;
         background-color: rgba(252, 252, 252, 0.398);
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -34,7 +44,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .privacidad {
         padding: 40px;
         justify-content: center;
@@ -43,13 +53,23 @@
         background-color: rgba(244, 227, 187, 0.944);
     }
 
+    .privacidad h3 {
+        font-size: 20px;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 16px;
+    }
+
     .linkReturn a {
         display: inline-block;
         background-color: rgba(252, 252, 252, 0.398);
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
+        width: 60px;
         font-size: 16px;
         text-align: center;
         line-height: 35px;

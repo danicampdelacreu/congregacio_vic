@@ -1,10 +1,18 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .informacionGeneral {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .informacionGeneral h2{
+        font-size: 18px;
+    }
+
+    .informacionGeneral p {
+        font-size: 14px;
     }
 
     .informacionUnete,
@@ -13,8 +21,7 @@
     .informacionMensaje,
     .informacionReturn {
         width: 400px;
-        margin: 0 auto 70px;
-        border-radius: 20px;
+        margin: 0 auto 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -25,13 +32,13 @@
     }
 
     .informacionFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         background-image: url('../../assets/img/Informacion.jpg');
         background-size: cover;
         background-position: center;
@@ -65,8 +72,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -90,8 +97,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 60px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -165,7 +172,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .informacionGeneral {
         display: flex;
         flex-wrap: wrap;
@@ -173,14 +180,22 @@
         background-color: rgba(244, 227, 187, 0.944);
     }
 
+    .informacionGeneral h2{
+        font-size: 20px;
+    }
+
+    .informacionGeneral p {
+        font-size: 16px;
+    }
+
+
     .informacionUnete,
     .informacionOtras,
     .informacionDonativo,
     .informacionMensaje,
     .informacionReturn {
         width: 400px;
-        margin: 0 auto 70px;
-        border-radius: 20px;
+        margin: 0 auto 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -191,7 +206,7 @@
     }
 
     .informacionFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;

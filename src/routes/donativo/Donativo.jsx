@@ -18,7 +18,7 @@ export default function Donativo() {
             <div className='donativoFoto'></div>
 
             <div className='donativoExpli'>
-                <h2>Ajuda al patrimoni</h2>
+                <h2>AJUDA AL PATRIMONI</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint unde officia nesciunt ad, facere, esse itaque hic rem, nisi iste illum! In et iure voluptatem doloribus sequi explicabo iusto!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore dolorem libero in unde. Odio sunt ad adipisci quis doloremque nobis placeat nemo obcaecati. Modi labore repellendus ea temporibus omnis?

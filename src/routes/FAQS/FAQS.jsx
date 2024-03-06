@@ -10,7 +10,7 @@ export default function FAQS() {
 
     return (
         <div className="faqsGeneral">
-            <h3 className='first'>Preguntas Frecuentes - Congregracio de Vic</h3>
+            <h3 className='first'>FAQS & COOKIES</h3>
 
             <h4 className='first'>Preguntas Generales:</h4>
             <h5>1. ¿Dónde se encuentra ubicada la Congregracio de Vic?</h5>

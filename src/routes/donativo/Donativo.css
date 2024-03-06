@@ -1,5 +1,5 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
 
     .donativoGeneral {
         justify-content: center;
@@ -9,7 +9,7 @@
     }
 
     .donativoFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -46,9 +46,14 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 14px;
+    }
 
+    .donativoExpli h2 {
+        font-size: 18px;
     }
 
     .donativoExpli a {
@@ -57,8 +62,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 100px;
-        font-size: 16px;
+        width: 90px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -85,8 +90,8 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
-        font-size: 16px;
+        width: 90px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -95,7 +100,7 @@
 
     .donativoReturn a:hover {
         height: 34px;
-        width: 70px;
+        width: 100px;
         background-color: white;
         color: black;
         transform: scale(1.1);
@@ -106,7 +111,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .donativoGeneral {
         justify-content: center;
         align-items: center;
@@ -115,7 +120,7 @@
     }
 
     .donativoFoto {
-        height: 200px;
+        height: 150px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -152,9 +157,14 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 16px;
+    }
 
+    .donativoExpli h2 {
+        font-size: 18px;
     }
 
     .donativoExpli a {
@@ -173,7 +183,7 @@
 
     .donativoExpli a:hover {
         height: 34px;
-        width: 100px;
+        width: 110px;
         background-color: white;
         color: black;
         transform: scale(1.1);
@@ -191,7 +201,7 @@
         color: black;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
-        width: 70px;
+        width: 110px;
         font-size: 16px;
         text-align: center;
         line-height: 35px;
@@ -201,7 +211,7 @@
 
     .donativoReturn a:hover {
         height: 34px;
-        width: 70px;
+        width: 110px;
         background-color: white;
         color: black;
         transform: scale(1.1);

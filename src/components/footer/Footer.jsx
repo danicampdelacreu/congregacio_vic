@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 
+import Insta from '../../assets/img/instalogo.png'
+
 import './Footer.css'
 
 import Aj from '../../assets/img/Aj.Vic.png';
@@ -13,6 +15,12 @@ export default function Footer() {
 
     return (
         <div className='footerGeneral'>
+            <div className='insta'>
+                <Link to="https://www.instagram.com/campusuegurb/">
+                    <img className="logoIH" src={Insta} />
+                </Link>
+                <p>@Congracacio dels dolors Vic</p>
+            </div>
 
             <div className="footerPatro">
 
@@ -49,5 +57,3 @@ export default function Footer() {
         </div>// fin footerGeneral
     )
 }
-
-// footer background color green

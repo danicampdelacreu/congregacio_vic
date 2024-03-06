@@ -12,9 +12,11 @@ export default function Historia() {
         <div className='historiaGeneral'>
 
             <div className='historiaFoto'></div>
-
-            <div className='historiaExpli'>
+            <div className='historiaTitulo'>
                 <h2>HISTORIA</h2>
+            </div>
+            <div className='historiaExpli'>
+
                 <p>Tot i que anteriorment ja existia una capella amb aquesta advocació a l’església de la Pietat. La història de la Venerable Congregació de la Marededéu dels Dolors de Vic es remunta al 21 d’abril de 1689, gràcies al Dr. Francesc Garrigó. Els inicis no van ser en aquesta casa que tots coneixem avui, sinó en un oratori particular del canonge Ramis, a l’hospital de la Santa Creu. No serà fins el 18 de setembre de 1724 que s’iniciaran les obres de construcció de l’actual església, que s’allargaran fins el 12 de setembre de 1728. Gràcies, en aquesta ocasió, a la intervenció del canonge Esteve Ferrer.</p>
                 <p>El segle XVIII serà un moment de gran importància per a la nostra Congregació, ja que, no només haurà aixecat una església, sinó que també es faran altres grans aportacions històriques. Per una banda, el 1750 s’instaurà l’acte penitencial més números i important de la Setmana Santa vigatana, la Processó dels Armats. Aquesta processó, a partir de 1760, ja podrà treure al carrer la imatge de la Verge Dolorosa que tothom coneix i que serà esculpida al taller vigatà dels Real.</p>
                 <p>Des d’un inici i malgrat la seva llegenda negra, la Congregació ha estat un espai de trobada del poble en tot el seu espectre social, persones riques i persones pobres s’han reunit de tu a tu. Amb una vestimenta de treball, que els iguala a tots, com és la vesta negra. I més enllà d’aquest fet, una altra marca important d’aquesta Congregació mariana, ha estat el fet de tenir un espai per a les dones i regit per aquestes. Que és la institució de les Sagristanes.</p>

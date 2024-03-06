@@ -71,7 +71,7 @@ export default function Informacion() {
 
             <div className='informacionDonativo'>
                 <h2>Ajuda</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, voluptate reiciendis animi obcaecati quos veritatis ipsum atque a optio dolore at harum rerum deleniti tempore iusto numquam blanditiis repudiandae esse? lorem </p>
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>
 

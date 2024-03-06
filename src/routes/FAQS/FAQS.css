@@ -1,11 +1,20 @@
 /* Tamaño movil*/
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .faqsGeneral {
         padding: 40px;
         justify-content: center;
         align-items: center;
         text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .faqsGeneral h3 {
+        font-size: 18px;
+    }
+    .faqsGeneral p,
+    .faqsGeneral h4,
+    .faqsGeneral h5 {
+        font-size: 14px;
     }
 
     .linkReturn a{
@@ -34,13 +43,22 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 650px) and (max-width: 768px) {
+@media (min-width: 550px) and (max-width: 768px) {
     .faqsGeneral {
         padding: 40px;
         justify-content: center;
         align-items: center;
         text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .faqsGeneral h3 {
+        font-size: 20px;
+    }
+    .faqsGeneral p,
+    .faqsGeneral h4,
+    .faqsGeneral h5 {
+        font-size: 16px;
     }
 
     .linkReturn a{

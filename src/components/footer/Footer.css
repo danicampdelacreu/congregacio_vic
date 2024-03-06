@@ -56,6 +56,14 @@
         width: 30px;
         height: auto;
     }
+    .logoIH {
+        width: 70px;
+        height: 30px;
+    }
+    .insta p{
+        font-size: 14px;
+        margin-top: 0;
+    }
 
 }
 
