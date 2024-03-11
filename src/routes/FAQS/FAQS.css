@@ -88,7 +88,46 @@
 
 /* Tamaño Tablet Horizontal*/
 @media (min-width: 768px) and (max-width: 1024px) {
+    .faqsGeneral {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
 
+    .faqsGeneral h3 {
+        font-size: 20px;
+    }
+    .faqsGeneral p,
+    .faqsGeneral h4,
+    .faqsGeneral h5 {
+        font-size: 16px;
+    }
+
+    .linkReturn a{
+        display: inline-block;
+        background-color:rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 70px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .linkReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
 }
 
 /* Tamaño Pantalla*/

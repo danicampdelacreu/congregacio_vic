@@ -282,7 +282,144 @@
 }
 
 /* Tamaño Tablet Horizontal*/
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .allMain {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .allMain h3 {
+        font-size: 22px;
+    }
+    .allMain p {
+        font-size: 18px;
+    }
+
+    .homeFoto {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-image: url('../../assets/img/logo.png');
+        background-size: 140px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .homeHistoria,
+    .homeNoticias,
+    .homeGaleria,
+    .homeInformacion,
+    .homeDonativo,
+    .homeProcesso,
+    .homeEspiritual {
+        width: 280px;
+        height: 200px;
+        margin: 0 auto 40px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .homeProcesso {
+        background-image: url('../../assets/img/logo.png');
+        background-size: 50px;
+        background-position: center;
+        background-color: rgba(189, 174, 140, 0.944);
+    }
+
+    .homeHistoria {
+        background-image: url('../../assets/img/Historia.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeNoticias {
+        background-image: url('../../assets/img/Noticias.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeGaleria {
+        background-image: url('../../assets/img/Galeria.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeInformacion {
+        background-image: url('../../assets/img/Informacion.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeDonativo {
+        background-image: url('../../assets/img/Donativo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeEspiritual {
+        background-image: url('../../assets/img/Donativo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeHistoriaIn,
+    .homeNoticiasIn,
+    .homeGaleriaIn,
+    .homeInformacionIn,
+    .homeDonativoIn,
+    .homeProcessoIn,
+    .homeEspiritualIn {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.284);
+        border-radius: 20px;
+        color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allMain a {
+        display: inline-block;
+        background-color:rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+    }
+
+    .allMain a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
 
 /* Tamaño Pantalla*/
 @media(min-width: 1024px) {}
