@@ -1,6 +1,6 @@
 
 /* Tamaño movil*/
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .headerNav {
         position: fixed;
         top: 0;
@@ -103,7 +103,7 @@
 }
 
 /* Tamaño Tablet Vertical*/
-@media (min-width: 550px) and (max-width: 768px) {
+@media (min-width: 650px) and (max-width: 768px) {
     .headerNav {
         position: fixed;
         top: 0;
