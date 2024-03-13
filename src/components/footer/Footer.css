@@ -239,4 +239,80 @@
 }
 
 /* Tamaño Pantalla*/
-@media(min-width: 1024px) {}
+@media(min-width: 1024px) {
+    .footerGeneral {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .footerLinkDani {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        color: black;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .footerLinkDani a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .footerLinkDani a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footerPatro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .ajVic{
+        width: 100px;
+        height: auto;
+    }
+    .fGirbau{
+        width: 90px;
+        height: auto;
+    }
+    .fPuig{
+        width: 100px;
+        height: auto;
+    }
+    .fVicus {
+        width: 100px;
+        height: auto;
+    }
+    .aDausa {
+        width: 70px;
+        height: auto;
+    }
+    .logoIH {
+        width: 80px;
+        height: auto;
+        padding: 10px;
+    }
+    .insta p{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .insta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoLF{
+        padding: 10px;
+        width: 90px;
+        height: auto;
+    }
+}

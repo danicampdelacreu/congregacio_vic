@@ -174,4 +174,59 @@
 }
 
 /* Tamaño Pantalla*/
-@media(min-width: 1024px) {}
+@media(min-width: 1024px) {
+    .espiritualGeneral {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .espiritualGeneral h2 {
+        font-size: 20px;
+        margin-top: 40px
+    }
+
+    .espiritualGeneral p {
+        font-size: 16px;
+    }
+    
+    .espiritualCelebracions,
+    .espiritualEspais,
+    .espiritualReturn {
+        width: 400px;
+        margin: 0 auto 0px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .espiritualReturn a {
+        display: inline-block;
+        background-color: rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .espiritualReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
