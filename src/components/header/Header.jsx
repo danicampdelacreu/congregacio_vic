@@ -25,7 +25,7 @@ export default function Header() {
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
           </svg>
         </button>
-        <h1 className='pageTitle'>CONGREGACIÓ DE LA MARE DE DEU DELS DOLORS</h1>
+        <h1 className='pageTitle'>VENERABLE CONGREGACIÓ DELS DOLORS DE VIC</h1>
       </div>
       {isMenuOpen && (
         <nav className='headerNav'>
