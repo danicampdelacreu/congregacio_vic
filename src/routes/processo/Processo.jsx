@@ -34,10 +34,10 @@ export default function Processo() {
             </div>
 
             <div className='processoFotos'>
-                <img className='pfoto1'src={F1}/>     
-                <img className='pfoto2'src={F2}/>
-                <img className='pfoto3'src={F3}/>
-                <img className='pfoto4'src={F4}/>
+                <img className='pfoto1'src={F1} alt="pfoto1"/>     
+                <img className='pfoto2'src={F2} alt="pfoto2"/>
+                <img className='pfoto3'src={F3} alt="pfoto3"/>
+                <img className='pfoto4'src={F4} alt="pfoto4"/>
             </div>
 
             <div className="processoReturn">
