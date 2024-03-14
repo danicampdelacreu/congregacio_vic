@@ -2,6 +2,11 @@ import { Link } from 'react-router-dom';
 
 import "./Processo.css";
 
+import F1 from '../../assets/img/Processo1.jpg'
+import F2 from '../../assets/img/Processo2.jpg'
+import F3 from '../../assets/img/Processo3.jpg'
+import F4 from '../../assets/img/Processo4.jpg'
+
 export default function Processo() {
 
     const returnClick = () => {
@@ -29,30 +34,10 @@ export default function Processo() {
             </div>
 
             <div className='processoFotos'>
-                <div className='pfoto1'>
-                    <h3>Foto 1</h3>
-                    <p>Explicacio</p>
-                </div>
-                <div className='pfoto2'>
-                    <h3>Foto 2</h3>
-                    <p>Explicacio</p>
-                </div>
-                <div className='pfoto3'>
-                    <h3>Foto 3</h3>
-                    <p>Explicacio</p>
-                </div>
-                <div className='pfoto4'>
-                    <h3>foto 4</h3>
-                    <p>Explicacio</p>
-                </div>
-                <div className='pfoto5'>
-                    <h3>Foto 5</h3>
-                    <p>Explicacio</p>
-                </div>
-                <div className='pfoto6'>
-                    <h3>Foto 6</h3>
-                    <p>Explicacio</p>
-                </div>
+                <img className='pfoto1'src={F1}/>     
+                <img className='pfoto2'src={F2}/>
+                <img className='pfoto3'src={F3}/>
+                <img className='pfoto4'src={F4}/>
             </div>
 
             <div className="processoReturn">
