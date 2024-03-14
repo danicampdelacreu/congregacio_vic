@@ -23,12 +23,12 @@ export default function Galeria() {
                 <h4></h4>
                 </div>
                 <div className='carpetaFotos'>
-                    <img className='gfoto1'src={F1}/>
-                    <img className='gfoto2'src={F2}/> 
-                    <img className='gfoto3'src={F3}/> 
-                    <img className='gfoto1'src={F1}/>   
-                    <img className='gfoto2'src={F2}/> 
-                    <img className='gfoto3'src={F3}/>   
+                    <img className='gfoto1'src={F1} alt="Foto1"/>
+                    <img className='gfoto2'src={F2} alt="Foto2"/> 
+                    <img className='gfoto3'src={F3} alt="Foto3"/> 
+                    <img className='gfoto1'src={F1} alt="Foto1"/>   
+                    <img className='gfoto2'src={F2} alt="Foto2"/> 
+                    <img className='gfoto3'src={F3} alt="Foto3"/>   
                 </div>
 
             </div>
