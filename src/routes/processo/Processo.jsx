@@ -17,7 +17,7 @@ export default function Processo() {
             </div>
 
             <div className="processoDia">
-                <p>Diumenge, 24 de Març del 2024</p>
+                <p>Diumenge de Rams</p>
             </div>
 
             <div className="processoExpli">

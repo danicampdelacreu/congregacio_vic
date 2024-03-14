@@ -9,11 +9,11 @@
     }
 
     .allMain h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .allMain p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
@@ -124,7 +124,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -151,10 +151,10 @@
     }
 
     .allMain h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .allMain p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .homeFoto {
@@ -264,7 +264,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -462,7 +462,7 @@
     .homeDonativo,
     .homeProcesso,
     .homeEspiritual {
-        width: 280px;
+        width: 320px;
         height: 200px;
         margin: 0 auto 40px;
         border-radius: 20px;

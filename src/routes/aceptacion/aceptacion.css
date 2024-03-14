@@ -9,13 +9,13 @@
     }
 
     .privacidad h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .linkReturn a {
@@ -25,7 +25,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -54,13 +54,13 @@
     }
 
     .privacidad h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .linkReturn a {
@@ -70,7 +70,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;

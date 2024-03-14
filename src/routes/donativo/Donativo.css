@@ -49,11 +49,11 @@
         padding: 50px;
         padding-top: 0;
         padding-bottom: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .donativoExpli h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .donativoExpli a {
@@ -63,7 +63,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 90px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -91,7 +91,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 90px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -160,7 +160,7 @@
         padding: 50px;
         padding-top: 0;
         padding-bottom: 0;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .donativoExpli h2 {
@@ -202,7 +202,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 110px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -268,7 +268,7 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding: 50px;
+        padding: 100px;
         padding-top: 0;
         padding-bottom: 0;
         font-size: 16px;
@@ -377,9 +377,9 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-        line-height: 1.8;
+        line-height: 2.0;
         box-sizing: border-box;
-        padding: 50px;
+        padding: 150px;
         padding-top: 0;
         padding-bottom: 0;
         font-size: 16px;
@@ -387,6 +387,7 @@
 
     .donativoExpli h2 {
         font-size: 18px;
+        padding-bottom: 40px;
     }
 
     .donativoExpli a {

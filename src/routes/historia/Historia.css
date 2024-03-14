@@ -93,7 +93,7 @@
     }
 
     .historiaTitulo h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin: 40px;
     }
 
@@ -139,7 +139,7 @@
         padding: 50px;
         padding-top: 0;
         padding-bottom: 0;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .historiaExpli h2 {
@@ -154,7 +154,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 70px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -225,7 +225,7 @@
         text-align: justify;
         line-height: 1.8;
         box-sizing: border-box;
-        padding: 50px;
+        padding: 100px;
         padding-top: 0;
         padding-bottom: 0;
         font-size: 16px;
@@ -312,9 +312,9 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-        line-height: 1.8;
+        line-height: 2.0;
         box-sizing: border-box;
-        padding: 50px;
+        padding: 150px;
         padding-top: 0;
         padding-bottom: 0;
         font-size: 16px;

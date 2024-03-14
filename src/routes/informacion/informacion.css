@@ -8,11 +8,11 @@
     }
 
     .informacionGeneral h2{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .informacionGeneral p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .informacionUnete,
@@ -73,7 +73,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -181,11 +181,11 @@
     }
 
     .informacionGeneral h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .informacionGeneral p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -247,7 +247,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 70px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -272,7 +272,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 70px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
