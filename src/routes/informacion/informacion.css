@@ -46,20 +46,11 @@
         overflow: hidden;
     }
 
-    .informacionFoto::after,
-    .informacionFoto::before {
+    .informacionFoto::after {
         content: "";
         position: absolute;
         width: 100%;
         height: 10%;
-    }
-
-    .informacionFoto::before {
-        top: 0;
-        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
-    }
-
-    .informacionFoto::after {
         bottom: 0;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
     }
@@ -98,7 +89,7 @@
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
         width: 60px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 35px;
         border-radius: 20px 20px;
@@ -220,20 +211,11 @@
         overflow: hidden;
     }
 
-    .informacionFoto::after,
-    .informacionFoto::before {
+    .informacionFoto::after {
         content: "";
         position: absolute;
         width: 100%;
         height: 10%;
-    }
-
-    .informacionFoto::before {
-        top: 0;
-        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
-    }
-
-    .informacionFoto::after {
         bottom: 0;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
     }
@@ -393,20 +375,11 @@
         overflow: hidden;
     }
 
-    .informacionFoto::after,
-    .informacionFoto::before {
+    .informacionFoto::after {
         content: "";
         position: absolute;
         width: 100%;
         height: 10%;
-    }
-
-    .informacionFoto::before {
-        top: 0;
-        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
-    }
-
-    .informacionFoto::after {
         bottom: 0;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
     }
@@ -566,20 +539,11 @@
         overflow: hidden;
     }
 
-    .informacionFoto::after,
-    .informacionFoto::before {
+    .informacionFoto::after {
         content: "";
         position: absolute;
         width: 100%;
         height: 10%;
-    }
-
-    .informacionFoto::before {
-        top: 0;
-        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
-    }
-
-    .informacionFoto::after {
         bottom: 0;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(244, 227, 187, 0.944));
     }
