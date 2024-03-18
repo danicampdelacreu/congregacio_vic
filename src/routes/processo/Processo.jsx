@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 import "./Processo.css";
 
-import F1 from '../../assets/img/Processo1.jpg'
-import F2 from '../../assets/img/Processo2.jpg'
-import F3 from '../../assets/img/Processo3.jpg'
-import F4 from '../../assets/img/Processo4.jpg'
+import F1 from '../../assets/img/Processo9.jpg'
+import F2 from '../../assets/img/Processo10.jpg'
+import F3 from '../../assets/img/Processo8.jpg'
+import F4 from '../../assets/img/processo6.jpg'
 
 export default function Processo() {
 

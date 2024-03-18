@@ -100,7 +100,7 @@ export default function FAQS() {
             <h4>6. Contacto</h4>
             <p className='lastP'>Si tienes alguna pregunta o inquietud sobre nuestra política de cookies, por favor, contáctanos a través de pastisseriacasellas@gmail.com.</p>
             <div className='linkReturn'>
-            <Link to="/Informacion" onClick={scrollToTop}>- Info</Link>
+            <Link to="/Informacion" onClick={scrollToTop}>Return</Link>
             </div>
         </div>
     );
