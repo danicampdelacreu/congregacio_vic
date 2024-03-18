@@ -17,7 +17,6 @@ export default function Home() {
             <div class='homeProcesso'>
                 <div className='homeProcessoIn'>
                     <h3>Processó</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                     <Link to="/Processo" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -25,7 +24,6 @@ export default function Home() {
             <div class='homeHistoria'>
                 <div className='homeHistoriaIn'>
                     <h3>Historia</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                     <Link to="/Historia" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -33,7 +31,6 @@ export default function Home() {
             <div class='homeNoticias'>
                 <div className='homeNoticiasIn'>
                     <h3>Noticies</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <Link to="/Noticias" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -41,7 +38,6 @@ export default function Home() {
             <div class='homeGaleria'>
                 <div className='homeGaleriaIn'>
                     <h3>Galeria</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Galeria" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -49,7 +45,6 @@ export default function Home() {
             <div class='homeDonativo'>
                 <div className='homeDonativoIn'>
                     <h3>Ajuda al patrimoni</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -57,7 +52,6 @@ export default function Home() {
             <div class='homeEspiritual'>
                 <div className='homeEspiritualIn'>
                     <h3>Espiritualitat</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     <Link to="/Espiritual" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -65,7 +59,6 @@ export default function Home() {
             <div class='homeInformacion'>
                 <div className='homeInformacionIn'>
                     <h3>Informacio General</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
