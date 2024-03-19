@@ -31,7 +31,7 @@ export default function Informacion() {
                     }
                 );
         } else {
-            alert('Por favor, rellena todos los campos y acepta la politica de privacidad');
+            alert('Por favor, rellena todos los campos y/o acepta la politica de privacidad');
         }
     };
 
