@@ -4,7 +4,7 @@ import "./Processo.css";
 
 import F1 from '../../assets/img/Processo9.jpg'
 import F2 from '../../assets/img/Processo10.jpg'
-import F3 from '../../assets/img/Processo8.jpg'
+import F3 from '../../assets/img/Processo5.jpg'
 import F4 from '../../assets/img/processo6.jpg'
 
 export default function Processo() {
@@ -36,8 +36,8 @@ export default function Processo() {
             <div className='processoFotos'>
                 <img className='pfoto1'src={F1} alt="pfoto1"/>     
                 <img className='pfoto2'src={F2} alt="pfoto2"/>
-                <img className='pfoto3'src={F3} alt="pfoto3"/>
-                <img className='pfoto4'src={F4} alt="pfoto4"/>
+                <img className='pfoto3'src={F4} alt="pfoto3"/>
+                <img className='pfoto4'src={F3} alt="pfoto4"/>
             </div>
 
             <div className="processoReturn">

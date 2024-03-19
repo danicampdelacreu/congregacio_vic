@@ -12,6 +12,8 @@ import F7 from '../../assets/img/Galeria7.jpg'
 import F8 from '../../assets/img/Galeria8.jpg'
 import F9 from '../../assets/img/Galeria9.jpg'
 import F10 from '../../assets/img/Reglament.jpg'
+import F11 from '../../assets/img/Processo8.jpg'
+
 
 export default function Galeria() {
 
@@ -40,6 +42,7 @@ export default function Galeria() {
                     <img className='gfoto3'src={F8} alt="gfoto3"/> 
                     <img className='gfoto3'src={F9} alt="gfoto3"/> 
                     <img className='gfoto3'src={F10} alt="gfoto3"/>  
+                    <img className='gfoto3'src={F11} alt="gfoto3"/>  
                 </div>
 
             </div>
