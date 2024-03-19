@@ -46,7 +46,7 @@ export default function Galeria() {
 
             <div className="galeriaReturn">
                 <Link to="/" onClick={returnClick}>
-                    Inicio
+                    Inici
                 </Link>
             </div>
 

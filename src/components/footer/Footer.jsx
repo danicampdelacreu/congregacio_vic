@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
             <div className='footerLinkDani'>
                 <p>
-                    @2024 Congregació de la Mare de Deu dels Dolors by Daniel Campdelacreu //
+                    @2024 Congregació de la Mare de Déu dels Dolors by Daniel Campdelacreu //
                     <a href=
                         "https://linkedin.com/in/danicampdelacreu-developer">
                         _LinkedIn

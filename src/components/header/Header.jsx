@@ -50,7 +50,7 @@ export default function Header() {
             </li>
             <li>
               <Link to="/noticias" onClick={closeMenu}>
-                NOTICIES
+                NOTÍCIES
               </Link>
             </li>
             <li>

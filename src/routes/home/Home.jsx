@@ -30,7 +30,7 @@ export default function Home() {
 
             <div class='homeNoticias'>
                 <div className='homeNoticiasIn'>
-                    <h3>Noticies</h3>
+                    <h3>Notícies</h3>
                     <Link to="/Noticias" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
             <div class='homeInformacion'>
                 <div className='homeInformacionIn'>
-                    <h3>Informacio General</h3>
+                    <h3>Informació General</h3>
                     <Link to="/Informacion" onClick={scrollToTop}>+ Info</Link>
                 </div>
             </div>
