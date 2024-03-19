@@ -16,8 +16,8 @@ export default function Privacidad() {
                 En cumplimiento de los Artículos 5 y 6 establecidos en la Ley Orgánica 15/1999,
                 de 13 de diciembre, de Protección de Datos de Carácter Personal, y el Reglamento
                 1720/2007 de 21 de diciembre, le informamos que, al introducir sus datos personales
-                en esta página web quedarán incorporados en un fichero propiedad de PASTISSERIA CASELLAS,
-                S.L. con el fin de prestarle los servicios solicitados.
+                en esta página web quedarán incorporados en un fichero propiedad de Congregació de la Mare de Deu dels Dolors 
+                con el fin de prestarle los servicios solicitados.
             </p>
             <p>
                 Los datos obtenidos son los pertinentes para la finalidad por la que se han recabado y
@@ -35,22 +35,22 @@ export default function Privacidad() {
                 Responsable del Fichero:
             </p>
             <p>
-                Nombre: PASTISSERIA CASELLAS, S.L.
+                Nombre: Congregació de la Mare de Deu dels Dolors
             </p>
             <p>
-                Dirección de la oficina: Plaça Catalunya, 9 Bajos
+                Dirección: C/ dels Dolors nº5
             </p>
             <p>
-                CP:08670 Población: Navás
+                CP:08500 Vic
             </p>
             <p>
                 Provincia: Barcelona
             </p>
             <p>
-                CIF: ----
+                CIF:G63953806
             </p>
             <p>
-                Email: pastisseriacasellas@gmail.com
+                Email: congregaciodolorsvic@gmail.com
             </p>
 
             <p>
@@ -59,7 +59,7 @@ export default function Privacidad() {
             </p>
             <p>
                 es una página web que tiene como objetivo establecer un canal de información, comunicación
-                y servicios entre PASTISSERIA CASELLAS, S.L. y sus clientes y empleados a través de Internet.
+                y servicios entre Congregació de la Mare de Deu dels Dolors y sus clientes y empleados a través de Internet.
             </p>
 
             <h4>2.DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL</h4>
@@ -83,7 +83,7 @@ export default function Privacidad() {
                 sitio web, pertenecen a sus respectivos propietarios, siendo ellos mismos responsables de
                 cualquier posible controversia que pudiera suscitarse respecto a los mismos. El RESPONSABLE
                 autoriza expresamente a que terceros puedan redirigir directamente a los contenidos concretos
-                del sitio web, y en todo caso redirigir al sitio web principal de www.pastisseriacasellas.com
+                del sitio web, y en todo caso redirigir al sitio web principal de www.elsdolorsvic.cat
             </p>
             <p>
                 El RESPONSABLE reconoce a favor de sus titulares los correspondientes derechos de propiedad
@@ -94,7 +94,7 @@ export default function Privacidad() {
             <p>
                 Para realizar cualquier tipo de observación respecto a posibles incumplimientos de los
                 derechos de propiedad intelectual o industrial, así como sobre cualquiera de los contenidos
-                del sitio web, puede hacerlo a través del correo electrónico pastisseriacasellas@gmail.com
+                del sitio web, puede hacerlo a través del correo electrónico congregaciodolorsvic@gmail.com
             </p>
             <h4>3.EXENCIÓN DE RESPONSABILIDADES</h4>
             <p>
@@ -179,7 +179,7 @@ export default function Privacidad() {
             <h3>POLÍTICA DE PRIVACIDAD</h3>
             <h4>1.INFORMACIÓN AL USUARIO</h4>
             <p>
-                PASTISSERIA CASELLAS, S.L., en adelante RESPONSABLE, es el Responsable del tratamiento
+                Congregació de la Mare de Deu dels Dolors, en adelante RESPONSABLE, es el Responsable del tratamiento
                 de los datos personales del Usuario y le informa que estos datos serán tratados de
                 conformidad con lo dispuesto en las normativas vigentes en protección de datos personales,
                 el Reglamento (UE) 2016/679 de 27 de abril de 2016 (GDPR) relativo a la protección de las
@@ -247,13 +247,13 @@ export default function Privacidad() {
                 Datos de contacto para ejercer sus derechos:
             </p>
             <p>
-                Dirección postal: PASTISSERIA CASELLAS, S.L.
+                Dirección postal: Congregació de la Mare de Deu dels Dolors
             </p>
             <p>
-                Plaça Catalunya, 9 Baixos. (08670)Navás
+                C/ Dels Dolors nº5
             </p>
             <p>
-                Email: pastisseriacasellas@gmail.com
+                Email: congregaciodolorsvic@gmail.com
             </p>
 
             <h4>2.CARÁCTER OBLIGATORIO O FACULTATIVO DE LA INFORMACIÓN FACILITADA POR EL USUARIO</h4>
