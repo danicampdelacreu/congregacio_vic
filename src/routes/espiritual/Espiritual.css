@@ -2,9 +2,9 @@
 @media (max-width: 650px) {
 
     .espiritualGeneral {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
     }
 
@@ -19,16 +19,18 @@
 
     .espiritualCelebracions,
     .espiritualEspais {
-        width: 400px;
-        margin: 0 auto 0px;
+        width: 100%;
+        background-color: rgba(244, 227, 187, 0.944);
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
+        text-align: justify;
+        line-height: 1.8;
         box-sizing: border-box;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .espiritualReturn a {
@@ -69,9 +71,9 @@
 /* Tamaño Tablet Vertical*/
 @media (min-width: 650px) and (max-width: 768px) {
     .espiritualGeneral {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
     }
 
@@ -86,16 +88,18 @@
     
     .espiritualCelebracions,
     .espiritualEspais{
-        width: 400px;
-        margin: 0 auto 0px;
+        width: 100%;
+        background-color: rgba(244, 227, 187, 0.944);
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
+        text-align: justify;
+        line-height: 1.8;
         box-sizing: border-box;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .espiritualReturn a {
@@ -136,9 +140,9 @@
 /* Tamaño Tablet Horizontal*/
 @media (min-width: 768px) and (max-width: 1024px) {
     .espiritualGeneral {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
     }
 
@@ -153,16 +157,18 @@
     
     .espiritualCelebracions,
     .espiritualEspais{
-        width: 400px;
-        margin: 0 auto 0px;
+        width: 100%;
+        background-color: rgba(244, 227, 187, 0.944);
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
+        text-align: justify;
+        line-height: 1.8;
         box-sizing: border-box;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .espiritualReturn a {
@@ -203,15 +209,15 @@
 /* Tamaño Pantalla*/
 @media(min-width: 1024px) {
     .espiritualGeneral {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-color: rgba(244, 227, 187, 0.944);
     }
 
     .espiritualGeneral h2 {
         font-size: 20px;
-        margin-top: 40px
+        margin-top: 40px;
     }
 
     .espiritualGeneral p {
@@ -220,16 +226,18 @@
     
     .espiritualCelebracions,
     .espiritualEspais {
-        width: 400px;
-        margin: 0 auto 0px;
+        width: 100%;
+        background-color: rgba(244, 227, 187, 0.944);
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
+        text-align: justify;
+        line-height: 1.8;
         box-sizing: border-box;
+        padding: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .espiritualReturn a {

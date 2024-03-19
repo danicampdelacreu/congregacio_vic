@@ -12,7 +12,7 @@ export default function Espirtual() {
         <div className='espiritualMain'>
             <div className="espiritualGeneral">
                 <div className="espiritualCelebracions">
-                    <h2>ESSPIRITUALITAT</h2>
+                    <h2>ESPIRITUALITAT</h2>
                     <p>L’espiritualitat és un dels eixos principals de la nostra església i
                         que des dels seus inicis ha difós la devoció a Maria, sota
                         l’advocació dels Dolors, com a model i referent de tots els temps.</p>
@@ -54,7 +54,41 @@ export default function Espirtual() {
 
                 <div className="espiritualEspais">
                     <h2>CELEBRACIONS</h2>
-                    <p></p>
+                    <p>La nostra església manté el culte regular amb la celebració de
+                        l’eucaristia tots els dissabtes de l’any i vigílies de festa de
+                        precepte a les 18:45 h, excepte el 5 de gener, la vigília del
+                        Diumenge de Rams i el Dissabte Sant.</p>
+                    <p>Els actes de culte extraordinaris, tenen lloc el dia 2 de febrer,
+                        festa de la Candelera on hi ha el relleu anual de les Sagristanes
+                        del culte a la Mare de Déu. També en la festa principal de Sta.
+                        Maria al peu de la creu conegut com a divendres dels Dolors, el
+                        12 de juliol, festivitat del St.Crist de l’Hospital i el 15 de
+                        setembre, festa dels Dolors Gloriosos.</p>
+                    <p>Els actes de culte extraordinaris, tenen lloc el dia 2 de febrer,
+                        festa de la Candelera on hi ha el relleu anual de les Sagristanes
+                        del culte a la Mare de Déu. També en la festa principal de Sta.
+                        Maria al peu de la creu conegut com a divendres dels Dolors, el
+                        12 de juliol, festivitat del St.Crist de l’Hospital i el 15 de
+                        setembre, festa dels Dolors Gloriosos.</p>
+                    <p>També es viu de manera especial la Missa del Pollet en la vigília
+                        de Nadal a les 18:45 h.
+                        A part d’aquests actes de culte públic, oberts a tothom, també hi
+                        ha celebracions de caràcter particular o privat, com la festivitat 
+                        de Sta. Apolònia patrona dels dentistes, casaments, aniversaris
+                        de noces o misses d’acció de gràcies i sufragi de difunts que
+                        encarreguen les famílies durant l’any.</p>
+                    <p>
+                        La nostra església també és escenari regular de concerts de
+                        música, especialment barroca, gràcies a l’orgue històric l’únic
+                        conservat a Osona. Destaca en el calendari anual, el tradicional
+                        concert de música sacra a càrrec de l’Orfeó Vigatà que té lloc al
+                        capvespre del Divendres dels Dolors, com a cloenda de la festa.
+                        Les conferències, meditacions i actes diversos, complementen
+                        l’activitat permanent, fent de la nostra església, un espai amb
+                        vocació de propiciar la pau interior en el cor de les persones.
+                        També mantenim oberta l’església durant tots els dies de l’any
+                        per tal que sigui visible des del cancell i es pugui acudir a visitar a
+                        la nostra patrona i contemplar l’art i bellesa que l’envolta.</p>
                 </div>
             </div>
             <div className="espiritualReturn">

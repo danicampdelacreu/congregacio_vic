@@ -17,7 +17,7 @@ export default function Informacion() {
 
         if (formData.get('user_name') && formData.get('user_email') && formData.get('message') && checkboxChecked) {
             emailjs
-                .sendForm('service_sjyf30z', 'template_itkkk5i', form.current, 'ybVHXbi9wadjWsNQj')
+                .sendForm('service_sjyf30z', 'template_8qowx82', form.current, 'ybVHXbi9wadjWsNQj')
                 // agregar correo cliente en emailjs cuando lo tengamos y cambiar service, tempalte y form.current
                 .then(
                     (result) => {
@@ -59,13 +59,13 @@ export default function Informacion() {
 
             <div className='informacionUnete'>
                 <h2>Unir-te</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, inventore iure? Officia, assumenda veritatis cum sit debitis sunt, qui nesciunt natus, sed quae explicabo obcaecati nihil excepturi ipsam. Accusantium, in.</p>
+                <p>Fer-te congregant amb nosaltres</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info </a>
             </div>
 
             <div className='informacionOtras'>
                 <h2> Més info</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quo enim voluptatem sunt in repellendus eum debitis, iusto accusantium adipisci asperiores deleniti voluptas similique. Aperiam totam similique veritatis itaque voluptates!</p>
+                <p>fer-te amic dels dolors</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
@@ -76,7 +76,7 @@ export default function Informacion() {
             </div>
 
             <div className="informacionMensaje" ref={informacionMensajeRef}>
-                <p> Info: congregacioVic@gmail.com</p>
+                <p> Info: congregaciodolorsvic@gmail.com</p>
                 <form ref={form} onSubmit={sendEmail}>
 
                     <div className="contacto-name">
