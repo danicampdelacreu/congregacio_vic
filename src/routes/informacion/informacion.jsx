@@ -60,7 +60,7 @@ export default function Informacion() {
             <div className='informacionOtras'>
                 <h2> Més info</h2>
                 <p>La Congregació té molt per oferir-te, si no has trobat el que buscaves entra aquí.</p>
-                <p>Clica +Info i omple el formulari amb la informació que vulguis saber i ens posarem en contacte per facilitar-te tot el que vulguis saber.</p>
+                <p>Clica +Info i omple el formulari amb la informació que vulguis saber i ens posarem en contacte.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
@@ -77,7 +77,7 @@ export default function Informacion() {
                 <p>D’aquesta manera podràs viure la teva fe dins d’una entitat religiosa i que la viu amb fervor.</p>
                 <p>També estaràs recolzant una entitat amb més de 300 anys i que guarda un patrimoni molt interessant de la nostra ciutat. Tant a nivell material com immaterial.</p>
                 <p>Rebràs informació dels actes religiosos i culturals de la Congregació i podràs estar al dia de tot el que fem durant l’any.</p>
-                <p>Clica Unir-te i omple el formulari amb el missatge vull unir-me i ens posarem amb contacte per facilitar-te la informació de com unir-te.</p>
+                <p>Clica Unir-te i omple el formulari amb el missatge vull unir-me i ens posarem amb contacte.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>Unir-te </a>
             </div>
 
