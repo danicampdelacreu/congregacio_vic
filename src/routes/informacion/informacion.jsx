@@ -57,22 +57,28 @@ export default function Informacion() {
 
             <div className='informacionFoto'></div>
 
-            <div className='informacionUnete'>
-                <h2>Unir-te</h2>
-                <p>Fer-te congregant amb nosaltres</p>
-                <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info </a>
-            </div>
-
             <div className='informacionOtras'>
                 <h2> Més info</h2>
-                <p>fer-te amic dels dolors</p>
+                <p>La Congregació té molt per oferir-te, si no has trobat el que buscaves entra aquí.</p>
+                <p>Clica +Info i omple el formulari amb la informació que vulguis saber i ens posarem en contacte per facilitar-te tot el que vulguis saber.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
             <div className='informacionDonativo'>
                 <h2>Ajuda</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, voluptate reiciendis animi obcaecati quos veritatis ipsum atque a optio dolore at harum rerum deleniti tempore iusto numquam blanditiis repudiandae esse? lorem </p>
+                <p>El teu suport és vital per conservar una joia barroca com és la nostra església, per ajudar-nos a seguir fent la Processó i per altres activitats de caire cultural i religiós que s’hi realitzen.</p>
+                <p>Clica Ajuda per saber més</p>
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
+            </div>
+
+            <div className='informacionUnete'>
+                <h2>Unir-te</h2>
+                <p>Fes-te congregant de Dolors.</p>
+                <p>D’aquesta manera podràs viure la teva fe dins d’una entitat religiosa i que la viu amb fervor.</p>
+                <p>També estaràs recolzant una entitat amb més de 300 anys i que guarda un patrimoni molt interessant de la nostra ciutat. Tant a nivell material com immaterial.</p>
+                <p>Rebràs informació dels actes religiosos i culturals de la Congregació i podràs estar al dia de tot el que fem durant l’any.</p>
+                <p>Clica Unir-te i omple el formulari amb el missatge vull unir-me i ens posarem amb contacte per facilitar-te la informació de com unir-te.</p>
+                <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>Unir-te </a>
             </div>
 
             <div className="informacionMensaje" ref={informacionMensajeRef}>

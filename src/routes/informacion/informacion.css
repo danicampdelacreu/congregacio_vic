@@ -515,7 +515,7 @@
     .informacionReturn {
         width: 400px;
         margin: 0 auto 30px;
-        display: flex;
+
         flex-direction: column;
         justify-content: center;
         align-items: center;
