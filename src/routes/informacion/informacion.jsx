@@ -17,7 +17,7 @@ export default function Informacion() {
 
         if (formData.get('user_name') && formData.get('user_email') && formData.get('message') && checkboxChecked) {
             emailjs
-                .sendForm('service_sjyf30z', 'template_8qowx82', form.current, 'ybVHXbi9wadjWsNQj')
+                .sendForm('service_hanmef7', 'template_8qowx82', form.current, 'ybVHXbi9wadjWsNQj')
                 // agregar correo cliente en emailjs cuando lo tengamos y cambiar service, tempalte y form.current
                 .then(
                     (result) => {
