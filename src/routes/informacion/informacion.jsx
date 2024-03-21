@@ -23,7 +23,7 @@ export default function Informacion() {
                     (result) => {
                         console.log(result.text);
                         alert('¡Mensaje enviado correctamente! Nos pondremos en contacto con usted ');
-                        window.location.reload();
+                        
                     },
                     (error) => {
                         console.log(error.text);
