@@ -45,7 +45,7 @@ export default function Header() {
             </li>
             <li>
               <Link to="/historia" onClick={closeMenu}>
-                HISTORIA
+                HISTÒRIA
               </Link>
             </li>
             <li>

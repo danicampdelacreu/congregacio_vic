@@ -64,12 +64,6 @@ export default function Espirtual() {
                         Maria al peu de la creu conegut com a divendres dels Dolors, el
                         12 de juliol, festivitat del St.Crist de l’Hospital i el 15 de
                         setembre, festa dels Dolors Gloriosos.</p>
-                    <p>Els actes de culte extraordinaris, tenen lloc el dia 2 de febrer,
-                        festa de la Candelera on hi ha el relleu anual de les Sagristanes
-                        del culte a la Mare de Déu. També en la festa principal de Sta.
-                        Maria al peu de la creu conegut com a divendres dels Dolors, el
-                        12 de juliol, festivitat del St.Crist de l’Hospital i el 15 de
-                        setembre, festa dels Dolors Gloriosos.</p>
                     <p>També es viu de manera especial la Missa del Pollet en la vigília
                         de Nadal a les 18:45 h.
                         A part d’aquests actes de culte públic, oberts a tothom, també hi
