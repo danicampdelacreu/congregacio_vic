@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: rgba(244, 227, 187, 0.944);
 }
 body p{
   font-family: "Playfair Display", serif;
