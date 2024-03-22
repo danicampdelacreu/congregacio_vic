@@ -10,6 +10,8 @@
 
     .allMain h3 {
         font-size: 16px;
+        text-transform: uppercase; 
+        font-weight: normal;
     }
 
     .allMain p {
@@ -152,6 +154,8 @@
 
     .allMain h3 {
         font-size: 18px;
+        text-transform: uppercase; 
+        font-weight: normal;
     }
     .allMain p {
         font-size: 14px;
@@ -292,6 +296,8 @@
 
     .allMain h3 {
         font-size: 22px;
+        text-transform: uppercase; 
+        font-weight: normal;
     }
     .allMain p {
         font-size: 18px;
@@ -432,6 +438,8 @@
 
     .allMain h3 {
         font-size: 22px;
+        text-transform: uppercase; 
+        font-weight: normal;
     }
     .allMain p {
         font-size: 18px;
