@@ -23,11 +23,11 @@ export default function Espirtual() {
                     <p>Les set espases que traspassen el cor i que són l’emblema que
                         ens identifica com a confraria, ens recorden set moments
                         especialment dolorosos en la vida de Maria.</p>
-                    <p>1-El dia que Maria va a presentar el seu fill Jesús al temple, rep
+                    <p>1- El dia que Maria va a presentar el seu fill Jesús al temple, rep
                         amb dolor i preocupació la profecia que li fa Simeó. “ Una espasa
                         de dolor et traspassarà el teu cor. Aquest fill serà una senyera
                         combatuda i per ella, molts s’alçaran i altres cauran”.</p>
-                    <p>2-La decisió d’Herodes d’ordenar la matança de tots els infants
+                    <p>2- La decisió d’Herodes d’ordenar la matança de tots els infants
                         menors de dos anys, obliga a Maria i Josep a fugir amb l’infant
                         cap a Egipte, fugint del perill que planava sobre ell.</p>
                     <p>3- L’angoixa de Maria per la pèrdua del seu fill a Jerusalem
@@ -40,7 +40,7 @@ export default function Espirtual() {
                     <p>5- Un moment tràgic fou veure agonitzar i morir a Jesús executat
                         a la pena de mort més ignominiosa i cruel. La crucifixió reservada
                         als lladres i delinqüents.</p>
-                    <p>6-Maria rebé en braços el cadàver del seu fill mort, ple de llagues
+                    <p>6- Maria rebé en braços el cadàver del seu fill mort, ple de llagues
                         i ferides.</p>
                     <p>7- Un cop ja sepultat Jesús, Maria inicia el dol en la seva soledat.</p>
                     <p>En els nostres temps, quan fem el rés de la Corona, meditem
