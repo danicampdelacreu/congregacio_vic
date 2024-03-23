@@ -39,7 +39,7 @@ function App() {
 }
 
 export default App;
-
-// NETLIFY web subidas actualizaciones 
+// Terminar proyecto en consola npm run build 
+// NETLIFY web subidas actualizaciones siempre subir carpeta build 
 // NOMINALIA domini www.elsdolorsdevic.cat
 // EMAILJS programa de correo electronico
