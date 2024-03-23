@@ -39,3 +39,7 @@ function App() {
 }
 
 export default App;
+
+// NETLIFY web subidas actualizaciones 
+// NOMINALIA domini www.elsdolorsdevic.cat
+// EMAILJS programa de correo electronico
