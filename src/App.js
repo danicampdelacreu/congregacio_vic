@@ -43,3 +43,4 @@ export default App;
 // NETLIFY web subidas actualizaciones siempre subir carpeta build 
 // NOMINALIA domini www.elsdolorsdevic.cat
 // EMAILJS programa de correo electronico
+// GOOGLE Search Controle  Posicio domini

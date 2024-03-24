@@ -58,21 +58,21 @@ export default function Informacion() {
             <div className='informacionFoto'></div>
 
             <div className='informacionOtras'>
-                <h2> Més info</h2>
+                <h2> MÉS INFO</h2>
                 <p>La Congregació té molt per oferir-te, si no has trobat el que buscaves entra aquí.</p>
                 <p>Clica +Info i omple el formulari amb la informació que vulguis saber i ens posarem en contacte.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); scrollToInformacionMensaje(); }}>+ Info</a>
             </div>
 
             <div className='informacionDonativo'>
-                <h2>Ajuda</h2>
+                <h2>AJUDA</h2>
                 <p>El teu suport és vital per conservar una joia barroca com és la nostra església, per ajudar-nos a seguir fent la Processó i per altres activitats de caire cultural i religiós que s’hi realitzen.</p>
                 <p>Clica Ajuda per saber més</p>
                 <Link to="/Donativo" onClick={scrollToTop}>+ Info</Link>
             </div>
 
             <div className='informacionUnete'>
-                <h2>Unir-te</h2>
+                <h2>UNIR-TE</h2>
                 <p>Fes-te congregant de Dolors.</p>
                 <p>D’aquesta manera podràs viure la teva fe dins d’una entitat religiosa i que la viu amb fervor.</p>
                 <p>També estaràs recolzant una entitat amb més de 300 anys i que guarda un patrimoni molt interessant de la nostra ciutat. Tant a nivell material com immaterial.</p>

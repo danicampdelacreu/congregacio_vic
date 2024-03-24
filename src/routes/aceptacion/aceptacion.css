@@ -10,12 +10,14 @@
 
     .privacidad h3 {
         font-size: 16px;
+        font-weight: normal;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
         font-size: 12px;
+        font-weight: normal;
     }
 
     .linkReturn a {
@@ -55,12 +57,14 @@
 
     .privacidad h3 {
         font-size: 18px;
+        font-weight: normal;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
         font-size: 14px;
+        font-weight: normal;
     }
 
     .linkReturn a {
@@ -100,12 +104,14 @@
 
     .privacidad h3 {
         font-size: 20px;
+        font-weight: normal;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
         font-size: 16px;
+        font-weight: normal;
     }
 
     .linkReturn a {
@@ -145,12 +151,14 @@
 
     .privacidad h3 {
         font-size: 20px;
+        font-weight: normal;
     }
 
     .privacidad p,
     .privacidad h4,
     .privacidad h5 {
         font-size: 16px;
+        font-weight: normal;
     }
 
     .linkReturn a {

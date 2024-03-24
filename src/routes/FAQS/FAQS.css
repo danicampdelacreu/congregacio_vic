@@ -10,11 +10,13 @@
 
     .faqsGeneral h3 {
         font-size: 16px;
+        font-weight: normal;
     }
     .faqsGeneral p,
     .faqsGeneral h4,
     .faqsGeneral h5 {
         font-size: 12px;
+        font-weight: normal;
     }
 
     .linkReturn a{
@@ -54,11 +56,13 @@
 
     .faqsGeneral h3 {
         font-size: 18px;
+        font-weight: normal;
     }
     .faqsGeneral p,
     .faqsGeneral h4,
     .faqsGeneral h5 {
         font-size: 14px;
+        font-weight: normal;
     }
 
     .linkReturn a{
@@ -98,11 +102,13 @@
 
     .faqsGeneral h3 {
         font-size: 20px;
+        font-weight: normal;
     }
     .faqsGeneral p,
     .faqsGeneral h4,
     .faqsGeneral h5 {
         font-size: 16px;
+        font-weight: normal;
     }
 
     .linkReturn a{
@@ -142,11 +148,13 @@
 
     .faqsGeneral h3 {
         font-size: 20px;
+        font-weight: normal;
     }
     .faqsGeneral p,
     .faqsGeneral h4,
     .faqsGeneral h5 {
         font-size: 16px;
+        font-weight: normal;
     }
 
     .linkReturn a{

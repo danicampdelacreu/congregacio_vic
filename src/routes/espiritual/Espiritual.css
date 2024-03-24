@@ -10,7 +10,8 @@
 
     .espiritualGeneral h2 {
         font-size: 16px;
-        margin-top: 40px
+        margin-top: 40px;
+        font-weight: normal;
     }
 
     .espiritualGeneral p {
@@ -79,7 +80,8 @@
 
     .espiritualGeneral h2 {
         font-size: 18px;
-        margin-top: 40px
+        margin-top: 40px;
+        font-weight: normal;
     }
 
     .espiritualGeneral p {
@@ -148,7 +150,8 @@
 
     .espiritualGeneral h2 {
         font-size: 20px;
-        margin-top: 40px
+        margin-top: 40px;
+        font-weight: normal;
     }
 
     .espiritualGeneral p {
@@ -218,6 +221,7 @@
     .espiritualGeneral h2 {
         font-size: 20px;
         margin-top: 40px;
+        font-weight: normal;
     }
 
     .espiritualGeneral p {

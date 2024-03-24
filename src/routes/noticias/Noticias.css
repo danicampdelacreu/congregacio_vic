@@ -21,16 +21,19 @@
     .noticiasExpli h4{
         font-size: 14px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
     .noticiasExpli h5{
         font-size: 12px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasTitul h2{
         font-size: 16px;
         margin: 40px;
         margin-bottom: 60px;
+        font-weight: normal;
     }
 
     .evento1,
@@ -126,17 +129,20 @@
     .noticiasExpli h4{
         font-size: 16px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasExpli h5{
         font-size: 14px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasTitul h2{
         font-size: 18px;
         margin: 40px;
         margin-bottom: 60px;
+        font-weight: normal;
     }
 
     .evento1,
@@ -234,17 +240,20 @@
     .noticiasExpli h4{
         font-size: 18px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasExpli h5{
         font-size: 16px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasTitul h2{
         font-size: 20px;
         margin: 40px;
         margin-bottom: 60px;
+        font-weight: normal;
     }
 
     .evento1,
@@ -342,17 +351,20 @@
     .noticiasExpli h4{
         font-size: 18px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasExpli h5{
         font-size: 16px;
         margin-bottom: 0px;
+        font-weight: normal;
     }
 
     .noticiasTitul h2{
         font-size: 20px;
         margin: 40px;
         margin-bottom: 60px;
+        font-weight: normal;
     }
 
     .evento1,

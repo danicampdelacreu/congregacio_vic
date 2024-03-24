@@ -29,7 +29,7 @@ export default function Noticias() {
                 <div className='evento4'>
                     <h4>La Processó</h4>
                     <h5>Diumenge de Rams</h5>
-                    <p>Església dels Dolors</p>
+                    <p>Església dels Dolors, 21:00 H</p>
                 </div>
                 <div className='evento5'>
                     <h4>Festa del Sant Crist</h4>
