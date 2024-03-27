@@ -1,0 +1,187 @@
+/* Tamaño movil*/
+@media (max-width: 650px) {
+    .privacidad {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .privacidad h3 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .linkReturn a {
+        display: inline-block;
+        background-color: rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .linkReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
+
+/* Tamaño Tablet Vertical*/
+@media (min-width: 650px) and (max-width: 768px) {
+    .privacidad {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .privacidad h3 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .linkReturn a {
+        display: inline-block;
+        background-color: rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .linkReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
+
+/* Tamaño Tablet Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .privacidad {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .privacidad h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .linkReturn a {
+        display: inline-block;
+        background-color: rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .linkReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
+
+/* Tamaño Pantalla*/
+@media(min-width: 1024px) {
+    .privacidad {
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(244, 227, 187, 0.944);
+    }
+
+    .privacidad h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .privacidad p,
+    .privacidad h4,
+    .privacidad h5 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .linkReturn a {
+        display: inline-block;
+        background-color: rgba(252, 252, 252, 0.398);
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        width: 60px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 20px 20px;
+        margin-bottom: 40px;
+    }
+
+    .linkReturn a:hover {
+        height: 34px;
+        width: 70px;
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+        border-radius: 20px 20px;
+        box-shadow: 0 8px 10px black;
+    }
+}
