@@ -17,11 +17,11 @@ export default function Footer() {
         <div className='footerGeneral'>
             <div className='insta'>
                 <Link to="https://www.instagram.com/elsdolorsdevic/">
-                    <img className="logoIH" src={Insta} />
+                    <img className="logoIH" src={Insta} alt="insta" />
                 </Link>
                 <p>@elsdolorsdevic</p>
                 <Link to="https://www.google.es/maps/place/Carrer+dels+Dolors,+5,+08500+Vic,+Barcelona/@41.9281302,2.2562312,17z/data=!3m1!4b1!4m6!3m5!1s0x12a52705908dbda1:0xc2f9a920cdf93da3!8m2!3d41.9281302!4d2.2562312!16s%2Fg%2F11c243d07k?entry=ttu">
-                    <img className="logoLF" src={maps} />
+                    <img className="logoLF" src={maps} alt="maps" />
                 </Link>
                 <p>C/ dels Dolors nº5 de Vic</p>
             </div>
@@ -29,20 +29,20 @@ export default function Footer() {
             <div className="footerPatro">
 
                 <Link to="https://www.vic.cat">
-                    <img className="ajVic" src={Aj} />
+                    <img className="ajVic" src={Aj}  alt="AjVic"/>
                 </Link>
 
                 <Link to="https://www.fundaciogirbau.com">
-                    <img className="fGirbau" src={FG} />
+                    <img className="fGirbau" src={FG} alt="Girbau" />
                 </Link>
                 <Link to="http://www.puig-porret.cat/puigporret_fundacio.htm">
-                    <img className="fPuig" src={FP} />
+                    <img className="fPuig" src={FP} alt="FPuig" />
                 </Link>
                 <Link to="https://www.forumvicus.cat/es/">
-                    <img className="fVicus" src={FV} />
+                    <img className="fVicus" src={FV} alt="Vicus" />
                 </Link>
                 <Link to="https://www.parkingsvic.com">
-                    <img className="aDausa" src={AD} />
+                    <img className="aDausa" src={AD}  alt="Dausa"/>
                 </Link>
             </div>
             <div className='footerLinkDani'>

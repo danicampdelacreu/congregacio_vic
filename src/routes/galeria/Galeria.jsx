@@ -29,7 +29,6 @@ export default function Galeria() {
             <div className='galeriaExpli'>
                 <h2>GALERIA DE FOTOS</h2>
                 <div className='galeriaA'> 
-                <h4></h4>
                 </div>
                 <div className='carpetaFotos'>
                     <img className='gfoto1'src={F1} alt="gfoto1"/>
