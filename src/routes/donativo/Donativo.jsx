@@ -32,7 +32,8 @@ export default function Donativo() {
                 <p>- Al lampadari o al temporitzador que il·lumina el retaule central.</p>
                 <p>- A la safata durant la missa dels dissabtes.</p>
                 <p>- A les caixetes d’almoines. </p>
-                <p>- Al nostre compte corrent : ES8201823507480201552875 .</p>
+                <p style="text-align: left;">- Al nostre compte corrent : ES8201823507480201552875 .</p>
+
             </div>
 
             <div className="donativoReturn">
