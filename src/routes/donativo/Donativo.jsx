@@ -28,11 +28,11 @@ export default function Donativo() {
                 <p>Destinem tots aquests donatius al manteniment i conservació de l’església barroca i de tots els elements artístics que acull i custodia. Però més enllà d’aquest aspecte purament material, també necessitem recursos per poder seguir organitzant actes i esdeveniments com ara la nostra tradicional Processó dels Armats o del Silenci, que amb 275 anys des de la seva institució, és la màxima expressió pietosa barroca que es pot observar avui en dia als carrers d’Europa, amb unes formes inalterades durant generacions i també per seguir omplint de vida i activitats la nostra església.</p>
                 <p>Com a Congregació amb vocació de servei i ajuda social, organitzem diversos actes de caire cultural, com ara visites guiades, representacions i concerts; on es agrada donar protagonisme al nostre orgue barroc a través de joves artistes de la comarca, ajudant a promocionar la seva figura i donant-los un espai únic on mostrar-se davant el públic i donar a conèixer el seu talent.</p>
                 <p>Les aportacions es poden fer de diferents maneres:</p>
-                <p>  -	A través de la visita guiada a l'església.</p>
-                <p>  -	Al lampadari o al temporitzador que il·lumina el retaule central.</p>
-                <p>-	A la safata durant la missa dels dissabtes.</p>
-                <p> -	A les caixetes d’almoines. </p>
-                <p>  -	Al nostre compte corrent : ES8201823507480201552875 .</p>
+                <p>- A través de la visita guiada a l'església.</p>
+                <p>- Al lampadari o al temporitzador que il·lumina el retaule central.</p>
+                <p>- A la safata durant la missa dels dissabtes.</p>
+                <p>- A les caixetes d’almoines. </p>
+                <p>- Al nostre compte corrent : ES8201823507480201552875 .</p>
             </div>
 
             <div className="donativoReturn">
