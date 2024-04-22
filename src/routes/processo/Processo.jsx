@@ -22,7 +22,7 @@ export default function Processo() {
             </div>
 
             <div className="processoDia">
-                <p>Espiritualitat i Barroc.</p>
+            <p style={{ fontWeight: 600 }}>Espiritualitat i Barroc.</p>
             </div>
 
             <div className="processoExpli">
