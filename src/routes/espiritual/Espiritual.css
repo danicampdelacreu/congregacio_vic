@@ -38,6 +38,7 @@
     .espiritualEspais h2{
         justify-content: center;
         display: flex;
+        margin-bottom: 30px;
     }
 
     .espiritualReturn a {
@@ -114,6 +115,7 @@
     .espiritualEspais h2{
         justify-content: center;
         display: flex;
+        margin-bottom: 30px;
     }
 
     .espiritualReturn a {
@@ -190,6 +192,7 @@
     .espiritualEspais h2{
         justify-content: center;
         display: flex;
+        margin-bottom: 30px;
     }
 
     .espiritualReturn a {
@@ -240,6 +243,7 @@
         font-size: 20px;
         margin-top: 40px;
         font-weight: normal;
+        margin-bottom: 30px;
     }
 
     .espiritualGeneral p {
