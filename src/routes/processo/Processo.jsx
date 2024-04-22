@@ -18,19 +18,22 @@ export default function Processo() {
             <div className="processoFoto"></div>
 
             <div className="processoTitul">
-                <h2>PROCESSÓ</h2>
+                <h2>LA PROCESSÓ DELS ARMATS O DEL SILENCI.</h2>
             </div>
 
             <div className="processoDia">
-                <p>Diumenge de Rams</p>
+                <p>Espiritualitat i Barroc.</p>
             </div>
 
             <div className="processoExpli">
-                <p>La primera referència a la Processó dels Armats o del Silenci, és de 1750. Aquesta és, segons els experts, la manifestació pietosa que millor ha guardat les formes tradicionals i, per tant, un interessant viatge al segle XVIII.</p>
-                <p>Pocs han estat els anys en què no s'ha celebrat, per causa de la pluja o de pandèmies. El període més llarg va ser des del 1973 al 1981, any en què uns joves i la voluntat de la gent, varen ajudar a recuperar-la i amb una gran assistència. La Processó, no ha restat immòbil als canvis del nostre temps. Essent oberta a totes les persones, sense limitació de cap mena.</p>
-                <p>L'ambient dels carrers del centre històric de la ciutat amb el foc, els papus, els armats i aquell silenci, trencat només per les llances picant a terra i el cant de l'Stabat Mater crea una atmosfera molt especial. Fins al punt que gent d'arreu participa d'aquest acte multitudinari, que agrupa a unes 500 persones.</p>
-                <p>Els vestits dels Armats són fets per la sastreria Vinyals de Barcelona el 1951, la tropa porta la capa de color vermell i els capitans de color blau. També els infants que fan llum porten la capa de colors, en funció de qui acompanyen. El 1981 es va fer un cos nou amb capa morada, el color propi de la Setmana Santa, i que acompanya les imatges de Crist a la creu i de la Verge Dolorosa</p>
-                <p>Tota la resta de participants porten la vesta negra, que és la tipología de vestir pròpia de la Congregació. Excepte els portants de les imatges i els cors, per qüestions pràctiques, la resta arrosseguen un annex, dit cua, al final de la vesta i es cobreixen el cap amb un cucurutxo que només deixa visible els ulls. Porten guants negres i llueixen un cor traspassat per set espases al pit, que són els set dolors de la Mare de Déu, i un cinturó d'on hi penja una tira de cuir i una corona, que és una versió d'un rosari. Pel que fa al calçat aquest ha de ser negre, tot i que, hi ha qui decideix anar descalçat.</p>
+                <p>La primera referència que tenim de la nostra processó de penitència és de l’any 1750.</p>
+                <p>Aquesta és, segons els experts, una processó única a tot Europa, l’única manifestació pietosa que ha guardat intactes les seves formes i rituals des dels seus inicis fins l’actualitat. Per tant, viure-la és un autèntic viatge espiritual a ple segle XVIII.</p>
+                <p>Tot i així, no ha restat immòbil als avenços socials i és una processó oberta a tothom, sense limitacions de cap mena.</p>
+                <p>Pocs han estat els anys en què no s'ha celebrat, per causa de la pluja o de pandèmies. El període més llarg va ser des del 1973 fins al 1981, any en què un grup de joves acompanyats per la voluntat de la gent, varen voler recuperar, amb un gran èxit d’assistència, aquest símbol espiritual de la ciutat de Vic.</p>
+                <p>Des de llavors, cada Diumenge de Rams a les 9 del vespre, els carrers del centre històric de la ciutat es continuen impregnant d’un silenci sepulcral, trencat només pels retrucs de les llances dels armats, l’acompassat i solemne toc de les campanes i l’emotiu cant de l’Stabat Mater, creant un ambient de màxima espiritualitat i emoció. </p>
+                <p>Les més de 500 persones que any rere any hi participen, tret dels armats, vesteixen amb el vestit tradicional de la congregació; vesta negra amb cucurulla tapant del rostre, guants i calçat també negres, un fustigador i una corona (rosari de Maria Dolorosa) penjant del cinturó i al pit hi llueixen un cor daurat traspassat per set espases, que simbolitzen els set dolors de la Mare de Déu. També es molt comú veure-hi diversos penitents descalços.</p>
+                <p>Tots aquests penitents abillats amb vesta negra, porten a la mà llargues atxes enceses, excepte els portadors dels improperis, paraules i sibil·les, els portadors del Sant Crist i de la imatge de la Mare de Déu i dels cantaires dels 3 cors de cants gregorians que acompanyen la processó.</p>
+                <p>Els diferents cossos d’Armats vesteixen diferent en funció de qui acompanyen; la tropa porta la capa de color vermell i els capitans la porten de color blau, tots ells feta a la prestigiosa sastreria Vinyals de Barcelona al 1951. El 1981 es va fer un cos nou amb capa morada, el color propi de la Setmana Santa, i que acompanya les imatges de Crist a la creu i de la Verge Dolorosa.</p>
             </div>
 
             <div className='processoFotos'>
