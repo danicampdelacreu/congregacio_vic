@@ -8,9 +8,7 @@ export default function Donativo() {
     const returnClick = () => {
         window.scrollTo(0, 0);
     };
-    const vullAjudarClick = () => {
-        window.scrollTo(0, document.body.scrollHeight);
-    };
+   
 
     return (
         <div className='donativoGeneral'>
